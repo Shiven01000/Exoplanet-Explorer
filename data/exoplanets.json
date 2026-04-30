@@ -61,7 +61,7 @@
     "star_temp": 5446.0,
     "distance": 3140.9,
     "orbital_distance": 0.2698,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -139,7 +139,7 @@
     "star_temp": 3556.0,
     "distance": 356.6,
     "orbital_distance": 0.0899,
-    "habitability_score": 0.0,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -282,7 +282,7 @@
     "star_temp": 5324.0,
     "distance": 2619.6,
     "orbital_distance": 0.6687,
-    "habitability_score": 0.04,
+    "habitability_score": 0.055,
     "is_habitable": false
   },
   {
@@ -412,7 +412,7 @@
     "star_temp": 5088.0,
     "distance": 1438.8,
     "orbital_distance": 0.356,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -861,12 +861,25 @@
     "name": "KOI-217 b",
     "star": "KOI-217",
     "radius": 12.442,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.91,
     "temperature": 1046.0,
     "star_temp": 5545.0,
     "distance": 2983.7,
     "orbital_distance": 0.0477,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "BD-210397 c",
+    "star": "BD-210397",
+    "radius": 12.9,
+    "mass": 1525.576,
+    "orbital_period": 6240.0,
+    "temperature": 69.6,
+    "star_temp": 4051.0,
+    "distance": 77.4,
+    "orbital_distance": 5.9,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -893,7 +906,7 @@
     "star_temp": 4925.0,
     "distance": 981.5,
     "orbital_distance": 0.0553,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -945,7 +958,7 @@
     "star_temp": 5288.0,
     "distance": 208.5,
     "orbital_distance": 0.25,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -1569,7 +1582,7 @@
     "star_temp": 5917.0,
     "distance": 3351.5,
     "orbital_distance": 0.2858,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -1660,7 +1673,7 @@
     "star_temp": 5261.0,
     "distance": 154.3,
     "orbital_distance": 0.3885,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -1920,7 +1933,7 @@
     "star_temp": 4925.0,
     "distance": 981.5,
     "orbital_distance": 0.427,
-    "habitability_score": 0.89,
+    "habitability_score": 0.845,
     "is_habitable": true
   },
   {
@@ -1933,7 +1946,7 @@
     "star_temp": 580.0,
     "distance": 75.4,
     "orbital_distance": 2.6,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -1959,7 +1972,7 @@
     "star_temp": 5986.0,
     "distance": 3583.1,
     "orbital_distance": 0.232,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -2336,7 +2349,7 @@
     "star_temp": 3347.0,
     "distance": 89.3,
     "orbital_distance": 0.0159,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -2349,7 +2362,7 @@
     "star_temp": 3347.0,
     "distance": 89.3,
     "orbital_distance": 0.0876,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -2375,7 +2388,7 @@
     "star_temp": 3212.0,
     "distance": 124.2,
     "orbital_distance": 0.0341,
-    "habitability_score": 0.0,
+    "habitability_score": 0.045,
     "is_habitable": false
   },
   {
@@ -2934,7 +2947,7 @@
     "star_temp": 5433.0,
     "distance": 2475.4,
     "orbital_distance": 0.091,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -3285,7 +3298,7 @@
     "star_temp": 4258.0,
     "distance": 864.4,
     "orbital_distance": 0.154,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -3506,7 +3519,7 @@
     "star_temp": 3568.0,
     "distance": 621.1,
     "orbital_distance": 0.097,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -3662,7 +3675,7 @@
     "star_temp": 4550.0,
     "distance": 4223.3,
     "orbital_distance": 0.0731,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -3688,7 +3701,7 @@
     "star_temp": 4931.0,
     "distance": 90.6,
     "orbital_distance": 0.2815,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -4325,7 +4338,7 @@
     "star_temp": 5643.0,
     "distance": 3535.7,
     "orbital_distance": 0.287,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -4611,7 +4624,7 @@
     "star_temp": 4252.0,
     "distance": 1015.2,
     "orbital_distance": 0.116,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -4709,7 +4722,7 @@
     "name": "Kepler-718 b",
     "star": "Kepler-718",
     "radius": 16.56,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 2.05,
     "temperature": 1497.0,
     "star_temp": 6191.0,
@@ -4839,7 +4852,7 @@
     "name": "Kepler-686 b",
     "star": "Kepler-686",
     "radius": 12.15,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 1.59,
     "temperature": 1539.0,
     "star_temp": 5649.0,
@@ -4852,7 +4865,7 @@
     "name": "Kepler-468 b",
     "star": "Kepler-468",
     "radius": 13.34,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 38.48,
     "temperature": 484.0,
     "star_temp": 5498.0,
@@ -5021,7 +5034,7 @@
     "name": "Kepler-493 b",
     "star": "Kepler-493",
     "radius": 15.13,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.0,
     "temperature": 1438.0,
     "star_temp": 6457.0,
@@ -5200,6 +5213,19 @@
     "is_habitable": false
   },
   {
+    "name": "BD-210397 b",
+    "star": "BD-210397",
+    "radius": 14.0,
+    "mass": 214.0,
+    "orbital_period": 1891.0,
+    "temperature": 104.7,
+    "star_temp": 4051.0,
+    "distance": 77.4,
+    "orbital_distance": 2.63,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-301 d",
     "star": "Kepler-301",
     "radius": 1.75,
@@ -5333,7 +5359,7 @@
     "name": "Kepler-548 b",
     "star": "Kepler-548",
     "radius": 11.99,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 4.45,
     "temperature": 1017.0,
     "star_temp": 5535.0,
@@ -5346,7 +5372,7 @@
     "name": "Kepler-723 b",
     "star": "Kepler-723",
     "radius": 12.19,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 4.08,
     "temperature": 1016.0,
     "star_temp": 5539.0,
@@ -5710,7 +5736,7 @@
     "name": "Kepler-487 b",
     "star": "Kepler-487",
     "radius": 11.42,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 15.36,
     "temperature": 662.0,
     "star_temp": 5444.0,
@@ -6210,7 +6236,7 @@
     "star_temp": 5884.0,
     "distance": 1033.0,
     "orbital_distance": 0.377,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -6275,7 +6301,7 @@
     "star_temp": 4347.0,
     "distance": 1892.3,
     "orbital_distance": 0.159,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -6288,7 +6314,7 @@
     "star_temp": 4259.0,
     "distance": 1058.2,
     "orbital_distance": 0.135,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -6444,7 +6470,7 @@
     "star_temp": 5381.0,
     "distance": 1862.7,
     "orbital_distance": 0.281,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -6522,7 +6548,7 @@
     "star_temp": 4997.0,
     "distance": 1326.1,
     "orbital_distance": 0.359,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -6574,8 +6600,8 @@
     "star_temp": 4465.0,
     "distance": 1690.4,
     "orbital_distance": 0.305,
-    "habitability_score": 0.52,
-    "is_habitable": true
+    "habitability_score": 0.005,
+    "is_habitable": false
   },
   {
     "name": "Kepler-339 c",
@@ -6626,8 +6652,8 @@
     "star_temp": 4880.0,
     "distance": 1255.1,
     "orbital_distance": 0.677,
-    "habitability_score": 0.895,
-    "is_habitable": true
+    "habitability_score": 0.57,
+    "is_habitable": false
   },
   {
     "name": "Kepler-272 d",
@@ -6639,7 +6665,7 @@
     "star_temp": 5297.0,
     "distance": 2901.9,
     "orbital_distance": 0.091,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -6808,7 +6834,7 @@
     "star_temp": 5308.0,
     "distance": 1137.0,
     "orbital_distance": 1.219,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -6990,7 +7016,7 @@
     "star_temp": 5128.0,
     "distance": 1472.2,
     "orbital_distance": 0.24,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -7042,7 +7068,7 @@
     "star_temp": 6248.0,
     "distance": 4707.8,
     "orbital_distance": 0.372,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -7159,7 +7185,7 @@
     "star_temp": 4880.0,
     "distance": 1255.1,
     "orbital_distance": 0.214,
-    "habitability_score": 0.025,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -7237,7 +7263,7 @@
     "star_temp": 4870.0,
     "distance": 603.4,
     "orbital_distance": 2.78,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -7556,7 +7582,7 @@
     "name": "Kepler-670 b",
     "star": "Kepler-670",
     "radius": 13.18,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 2.82,
     "temperature": 1219.0,
     "star_temp": 5709.0,
@@ -7744,7 +7770,7 @@
     "star_temp": 5194.0,
     "distance": 1000.6,
     "orbital_distance": 0.233,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -8056,7 +8082,7 @@
     "star_temp": 4880.0,
     "distance": 1255.1,
     "orbital_distance": 0.1,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -8212,7 +8238,7 @@
     "star_temp": 4134.0,
     "distance": 982.0,
     "orbital_distance": 0.242,
-    "habitability_score": 0.98,
+    "habitability_score": 0.96,
     "is_habitable": true
   },
   {
@@ -8245,7 +8271,7 @@
     "name": "Kepler-490 b",
     "star": "Kepler-490",
     "radius": 11.65,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.27,
     "temperature": 1597.0,
     "star_temp": 6045.0,
@@ -8264,7 +8290,7 @@
     "star_temp": 3563.0,
     "distance": 117.5,
     "orbital_distance": 0.1513,
-    "habitability_score": 0.005,
+    "habitability_score": 0.79,
     "is_habitable": false
   },
   {
@@ -8316,7 +8342,7 @@
     "star_temp": 4651.0,
     "distance": 1920.9,
     "orbital_distance": 0.339,
-    "habitability_score": 0.065,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -8329,8 +8355,8 @@
     "star_temp": 3755.0,
     "distance": 579.3,
     "orbital_distance": 0.432,
-    "habitability_score": 0.255,
-    "is_habitable": false
+    "habitability_score": 0.925,
+    "is_habitable": true
   },
   {
     "name": "Kepler-441 b",
@@ -8342,8 +8368,8 @@
     "star_temp": 4340.0,
     "distance": 874.2,
     "orbital_distance": 0.64,
-    "habitability_score": 0.27,
-    "is_habitable": false
+    "habitability_score": 0.865,
+    "is_habitable": true
   },
   {
     "name": "K2-155 c",
@@ -8368,7 +8394,7 @@
     "star_temp": 5081.0,
     "distance": 412.5,
     "orbital_distance": 0.472,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -8667,7 +8693,7 @@
     "star_temp": 6340.0,
     "distance": 4155.8,
     "orbital_distance": 1.1967,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -8680,7 +8706,7 @@
     "star_temp": 4402.0,
     "distance": 1193.8,
     "orbital_distance": 0.409,
-    "habitability_score": 0.88,
+    "habitability_score": 0.945,
     "is_habitable": true
   },
   {
@@ -8713,7 +8739,7 @@
     "name": "Kepler-785 b",
     "star": "Kepler-785",
     "radius": 13.02,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 1.97,
     "temperature": 753.0,
     "star_temp": 4739.0,
@@ -8732,8 +8758,8 @@
     "star_temp": 4551.0,
     "distance": 991.6,
     "orbital_distance": 0.288,
-    "habitability_score": 0.92,
-    "is_habitable": true
+    "habitability_score": 0.005,
+    "is_habitable": false
   },
   {
     "name": "Kepler-296 c",
@@ -8765,7 +8791,7 @@
     "name": "Kepler-731 b",
     "star": "Kepler-731",
     "radius": 13.88,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.86,
     "temperature": 1212.0,
     "star_temp": 5849.0,
@@ -8888,7 +8914,7 @@
     "star_temp": 3740.0,
     "distance": 544.8,
     "orbital_distance": 0.118,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -8914,8 +8940,8 @@
     "star_temp": 3740.0,
     "distance": 544.8,
     "orbital_distance": 0.169,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.66,
+    "is_habitable": true
   },
   {
     "name": "Kepler-296 f",
@@ -9035,6 +9061,19 @@
     "is_habitable": false
   },
   {
+    "name": "HD 62364 b",
+    "star": "HD 62364",
+    "radius": 12.1,
+    "mass": 5965.639,
+    "orbital_period": 5138.0,
+    "temperature": 144.3,
+    "star_temp": 6255.0,
+    "distance": 173.3,
+    "orbital_distance": 6.15,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-2019 b",
     "star": "TOI-2019",
     "radius": 5.333,
@@ -9135,7 +9174,7 @@
     "star_temp": 3272.0,
     "distance": 181.1,
     "orbital_distance": 0.0877,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -9187,7 +9226,7 @@
     "star_temp": 3157.0,
     "distance": 414.9,
     "orbital_distance": 0.0439,
-    "habitability_score": 0.0,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -9200,7 +9239,7 @@
     "star_temp": 3157.0,
     "distance": 414.9,
     "orbital_distance": 0.0301,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -9382,7 +9421,7 @@
     "star_temp": 3359.0,
     "distance": 314.3,
     "orbital_distance": 0.0403,
-    "habitability_score": 0.0,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -9785,7 +9824,7 @@
     "star_temp": 5884.0,
     "distance": 2992.8,
     "orbital_distance": 0.4757,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -9928,7 +9967,7 @@
     "star_temp": 4956.0,
     "distance": 42.2,
     "orbital_distance": 0.247,
-    "habitability_score": 0.02,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -10435,7 +10474,7 @@
     "star_temp": 4806.0,
     "distance": 2061.2,
     "orbital_distance": 0.2597,
-    "habitability_score": 0.02,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -10474,7 +10513,7 @@
     "star_temp": 5796.0,
     "distance": 3786.0,
     "orbital_distance": 0.791,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -10500,7 +10539,7 @@
     "star_temp": 3328.0,
     "distance": 39.8,
     "orbital_distance": 0.067,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -10578,7 +10617,7 @@
     "star_temp": 5227.0,
     "distance": 1354.9,
     "orbital_distance": 0.3759,
-    "habitability_score": 0.025,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -10981,7 +11020,7 @@
     "star_temp": 5445.0,
     "distance": 236.4,
     "orbital_distance": 0.3721,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -11085,7 +11124,7 @@
     "star_temp": 5588.0,
     "distance": 2416.3,
     "orbital_distance": 0.38,
-    "habitability_score": 0.025,
+    "habitability_score": 0.06,
     "is_habitable": false
   },
   {
@@ -11176,7 +11215,7 @@
     "star_temp": 4939.0,
     "distance": 2717.4,
     "orbital_distance": 0.3575,
-    "habitability_score": 0.02,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -11241,7 +11280,7 @@
     "star_temp": 4881.0,
     "distance": 1003.0,
     "orbital_distance": 0.0571,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -11397,7 +11436,7 @@
     "star_temp": 5404.0,
     "distance": 2295.8,
     "orbital_distance": 0.7097,
-    "habitability_score": 0.015,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -11644,6 +11683,19 @@
     "star_temp": 5950.0,
     "distance": 1549.0,
     "orbital_distance": 0.1546,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-59 b",
+    "star": "K2-59",
+    "radius": 2.41,
+    "mass": 6.39,
+    "orbital_period": 20.69,
+    "temperature": 566.3,
+    "star_temp": 5055.0,
+    "distance": 1015.5,
+    "orbital_distance": 0.1354,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -12073,7 +12125,7 @@
     "star_temp": 3709.0,
     "distance": 169.5,
     "orbital_distance": 0.106,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -12164,7 +12216,7 @@
     "star_temp": 3641.0,
     "distance": 34.0,
     "orbital_distance": 0.1617,
-    "habitability_score": 0.015,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -12727,6 +12779,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-414 b",
+    "star": "K2-414",
+    "radius": 1.219,
+    "mass": 1.98,
+    "orbital_period": 4.37,
+    "temperature": 811.6,
+    "star_temp": 4343.0,
+    "distance": 848.2,
+    "orbital_distance": 0.0487,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "HATS-74 A b",
     "star": "HATS-74 A",
     "radius": 11.568,
@@ -12879,7 +12944,7 @@
     "star_temp": 4109.0,
     "distance": 368.8,
     "orbital_distance": 20.8,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -12918,7 +12983,7 @@
     "star_temp": 3435.0,
     "distance": 163.2,
     "orbital_distance": 0.136,
-    "habitability_score": 0.0,
+    "habitability_score": 0.925,
     "is_habitable": false
   },
   {
@@ -12970,7 +13035,7 @@
     "star_temp": 3459.0,
     "distance": 101.5,
     "orbital_distance": 0.0929,
-    "habitability_score": 0.0,
+    "habitability_score": 0.06,
     "is_habitable": false
   },
   {
@@ -13217,7 +13282,7 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0158,
-    "habitability_score": 0.0,
+    "habitability_score": 0.055,
     "is_habitable": false
   },
   {
@@ -13230,8 +13295,8 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0223,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.785,
+    "is_habitable": true
   },
   {
     "name": "TRAPPIST-1 e",
@@ -13243,8 +13308,8 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0293,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.93,
+    "is_habitable": true
   },
   {
     "name": "TRAPPIST-1 f",
@@ -13256,8 +13321,8 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0385,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.945,
+    "is_habitable": true
   },
   {
     "name": "TRAPPIST-1 g",
@@ -13269,8 +13334,8 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0468,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.95,
+    "is_habitable": true
   },
   {
     "name": "TRAPPIST-1 h",
@@ -13282,7 +13347,7 @@
     "star_temp": 2566.0,
     "distance": 40.5,
     "orbital_distance": 0.0619,
-    "habitability_score": 0.0,
+    "habitability_score": 0.665,
     "is_habitable": false
   },
   {
@@ -13581,7 +13646,7 @@
     "star_temp": 5348.0,
     "distance": 174.9,
     "orbital_distance": 3.71,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -13906,7 +13971,7 @@
     "star_temp": 5791.0,
     "distance": 3186.1,
     "orbital_distance": 0.1016,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -14023,7 +14088,7 @@
     "star_temp": 5307.0,
     "distance": 3160.9,
     "orbital_distance": 0.48,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -14205,7 +14270,7 @@
     "star_temp": 4072.0,
     "distance": 93.0,
     "orbital_distance": 0.0202,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -14381,7 +14446,7 @@
     "name": "TOI-5143 c",
     "star": "TOI-5143",
     "radius": 16.253,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 5.21,
     "temperature": 904.5,
     "star_temp": 5183.0,
@@ -14738,7 +14803,7 @@
     "star_temp": 3195.0,
     "distance": 6.0,
     "orbital_distance": 0.0381,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -14989,6 +15054,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-413 b",
+    "star": "K2-413",
+    "radius": 0.76,
+    "mass": 0.363,
+    "orbital_period": 0.81,
+    "temperature": 1534.5,
+    "star_temp": 4116.0,
+    "distance": 930.2,
+    "orbital_distance": 0.0117,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-212 b",
     "star": "Kepler-212",
     "radius": 1.09,
@@ -15011,6 +15089,19 @@
     "star_temp": 5329.0,
     "distance": 2127.0,
     "orbital_distance": 0.077,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-83 c",
+    "star": "K2-83",
+    "radius": 1.483,
+    "mass": 2.8,
+    "orbital_period": 10.0,
+    "temperature": 459.6,
+    "star_temp": 3910.0,
+    "distance": 409.5,
+    "orbital_distance": 0.0713,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -15089,7 +15180,7 @@
     "star_temp": 4625.0,
     "distance": 1219.2,
     "orbital_distance": 0.218,
-    "habitability_score": 0.025,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -15115,7 +15206,7 @@
     "star_temp": 3151.0,
     "distance": 12.1,
     "orbital_distance": 0.0285,
-    "habitability_score": 0.0,
+    "habitability_score": 0.045,
     "is_habitable": false
   },
   {
@@ -15245,7 +15336,7 @@
     "star_temp": 5148.0,
     "distance": 2846.1,
     "orbital_distance": 0.6648,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -15271,7 +15362,7 @@
     "star_temp": 5948.0,
     "distance": 2338.2,
     "orbital_distance": 0.364,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -15466,7 +15557,7 @@
     "star_temp": 3185.0,
     "distance": 217.9,
     "orbital_distance": 0.0439,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -15596,7 +15687,7 @@
     "star_temp": 5250.0,
     "distance": 2046.5,
     "orbital_distance": 0.332,
-    "habitability_score": 0.0,
+    "habitability_score": 0.03,
     "is_habitable": false
   },
   {
@@ -16623,7 +16714,7 @@
     "star_temp": 4258.0,
     "distance": 237.5,
     "orbital_distance": 0.0562,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -16675,7 +16766,7 @@
     "star_temp": 4258.0,
     "distance": 237.5,
     "orbital_distance": 0.1937,
-    "habitability_score": 0.0,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -16740,7 +16831,7 @@
     "star_temp": 3688.0,
     "distance": 10.7,
     "orbital_distance": 0.121,
-    "habitability_score": 0.005,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -16844,7 +16935,7 @@
     "star_temp": 3270.0,
     "distance": 41.1,
     "orbital_distance": 0.0476,
-    "habitability_score": 0.0,
+    "habitability_score": 0.17,
     "is_habitable": false
   },
   {
@@ -16857,7 +16948,7 @@
     "star_temp": 6065.0,
     "distance": 5202.0,
     "orbital_distance": 1.5535,
-    "habitability_score": 0.025,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -16909,7 +17000,7 @@
     "star_temp": 5820.0,
     "distance": 1002.5,
     "orbital_distance": 0.4988,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -17082,6 +17173,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-80 c",
+    "star": "K2-80",
+    "radius": 1.47,
+    "mass": 2.76,
+    "orbital_period": 5.61,
+    "temperature": 999.7,
+    "star_temp": 5441.0,
+    "distance": 655.0,
+    "orbital_distance": 0.0596,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-891 b",
     "star": "Kepler-891",
     "radius": 6.41,
@@ -17104,7 +17208,7 @@
     "star_temp": 5280.0,
     "distance": 1781.8,
     "orbital_distance": 0.3657,
-    "habitability_score": 0.01,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -17312,7 +17416,7 @@
     "star_temp": 4886.0,
     "distance": 1093.1,
     "orbital_distance": 0.5446,
-    "habitability_score": 0.92,
+    "habitability_score": 0.84,
     "is_habitable": true
   },
   {
@@ -17325,7 +17429,7 @@
     "star_temp": 2999.0,
     "distance": 31.1,
     "orbital_distance": 1.137,
-    "habitability_score": 0.06,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -17416,7 +17520,7 @@
     "star_temp": 5311.0,
     "distance": 3190.5,
     "orbital_distance": 0.0813,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -17663,7 +17767,7 @@
     "star_temp": 4710.0,
     "distance": 613.3,
     "orbital_distance": 0.253,
-    "habitability_score": 0.07,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -18144,7 +18248,7 @@
     "star_temp": 3506.0,
     "distance": 73.3,
     "orbital_distance": 0.0721,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -18755,7 +18859,7 @@
     "star_temp": 5774.0,
     "distance": 2523.9,
     "orbital_distance": 0.11,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -18833,7 +18937,7 @@
     "star_temp": 5001.0,
     "distance": 1985.7,
     "orbital_distance": 0.2658,
-    "habitability_score": 0.025,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -19188,6 +19292,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-80 b",
+    "star": "K2-80",
+    "radius": 2.01,
+    "mass": 4.7,
+    "orbital_period": 19.09,
+    "temperature": 665.0,
+    "star_temp": 5441.0,
+    "distance": 655.0,
+    "orbital_distance": 0.135,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-1222 b",
     "star": "Kepler-1222",
     "radius": 0.79,
@@ -19288,7 +19405,7 @@
     "star_temp": 5297.0,
     "distance": 3088.6,
     "orbital_distance": 0.5953,
-    "habitability_score": 0.015,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -19704,7 +19821,7 @@
     "star_temp": 3457.0,
     "distance": 124.0,
     "orbital_distance": 0.1429,
-    "habitability_score": 0.005,
+    "habitability_score": 0.15,
     "is_habitable": false
   },
   {
@@ -19951,7 +20068,7 @@
     "star_temp": 4622.0,
     "distance": 191.2,
     "orbital_distance": 0.2447,
-    "habitability_score": 0.04,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -19964,8 +20081,8 @@
     "star_temp": 4622.0,
     "distance": 191.2,
     "orbital_distance": 0.3405,
-    "habitability_score": 0.265,
-    "is_habitable": true
+    "habitability_score": 0.015,
+    "is_habitable": false
   },
   {
     "name": "HD 56414 b",
@@ -19990,7 +20107,7 @@
     "star_temp": 5315.0,
     "distance": 1117.6,
     "orbital_distance": 0.3569,
-    "habitability_score": 0.045,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -20081,7 +20198,7 @@
     "star_temp": 6184.0,
     "distance": 3149.7,
     "orbital_distance": 0.6689,
-    "habitability_score": 0.025,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -20423,6 +20540,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 1061 c",
+    "star": "GJ 1061",
+    "radius": 1.19,
+    "mass": 1.81,
+    "orbital_period": 6.68,
+    "temperature": 302.9,
+    "star_temp": 2953.0,
+    "distance": 12.0,
+    "orbital_distance": 0.0342,
+    "habitability_score": 0.85,
+    "is_habitable": true
+  },
+  {
     "name": "Kepler-1600 b",
     "star": "Kepler-1600",
     "radius": 3.13,
@@ -20432,7 +20562,7 @@
     "star_temp": 5214.0,
     "distance": 3362.5,
     "orbital_distance": 0.9814,
-    "habitability_score": 0.01,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -20601,7 +20731,7 @@
     "star_temp": 3099.0,
     "distance": 115.5,
     "orbital_distance": 0.0619,
-    "habitability_score": 0.0,
+    "habitability_score": 0.93,
     "is_habitable": false
   },
   {
@@ -20692,7 +20822,7 @@
     "star_temp": 3655.0,
     "distance": 245.2,
     "orbital_distance": 0.1346,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -20705,7 +20835,7 @@
     "star_temp": 4351.0,
     "distance": 1526.9,
     "orbital_distance": 0.341,
-    "habitability_score": 0.965,
+    "habitability_score": 0.925,
     "is_habitable": true
   },
   {
@@ -20900,7 +21030,7 @@
     "star_temp": 4540.0,
     "distance": 799.1,
     "orbital_distance": 0.4426,
-    "habitability_score": 0.76,
+    "habitability_score": 0.74,
     "is_habitable": true
   },
   {
@@ -21004,8 +21134,8 @@
     "star_temp": 5202.0,
     "distance": 2508.8,
     "orbital_distance": 0.6011,
-    "habitability_score": 0.685,
-    "is_habitable": true
+    "habitability_score": 0.04,
+    "is_habitable": false
   },
   {
     "name": "K2-268 b",
@@ -21242,6 +21372,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-58 c",
+    "star": "K2-58",
+    "radius": 1.62,
+    "mass": 3.26,
+    "orbital_period": 2.54,
+    "temperature": 1291.2,
+    "star_temp": 5413.0,
+    "distance": 592.9,
+    "orbital_distance": 0.035,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-1449 b",
     "star": "Kepler-1449",
     "radius": 1.68,
@@ -21316,7 +21459,7 @@
     "star_temp": 3728.0,
     "distance": 24.8,
     "orbital_distance": 0.422,
-    "habitability_score": 0.88,
+    "habitability_score": 0.91,
     "is_habitable": true
   },
   {
@@ -21342,7 +21485,7 @@
     "star_temp": 5347.0,
     "distance": 3488.5,
     "orbital_distance": 1.1266,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -21446,7 +21589,7 @@
     "star_temp": 3505.0,
     "distance": 30.8,
     "orbital_distance": 0.204,
-    "habitability_score": 0.82,
+    "habitability_score": 0.32,
     "is_habitable": true
   },
   {
@@ -21563,7 +21706,7 @@
     "star_temp": 3788.0,
     "distance": 579.3,
     "orbital_distance": 0.11,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -21593,6 +21736,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3998 d",
+    "star": "GJ 3998",
+    "radius": 2.34,
+    "mass": 6.07,
+    "orbital_period": 41.78,
+    "temperature": 291.5,
+    "star_temp": 3726.0,
+    "distance": 59.2,
+    "orbital_distance": 0.189,
+    "habitability_score": 0.21,
+    "is_habitable": true
+  },
+  {
     "name": "Kepler-1044 b",
     "star": "Kepler-1044",
     "radius": 2.67,
@@ -21615,7 +21771,7 @@
     "star_temp": 4546.0,
     "distance": 859.9,
     "orbital_distance": 0.0377,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -21862,7 +22018,7 @@
     "star_temp": 5225.0,
     "distance": 3067.0,
     "orbital_distance": 0.2832,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -21927,7 +22083,7 @@
     "star_temp": 3406.0,
     "distance": 35.5,
     "orbital_distance": 7506.0,
-    "habitability_score": 0.025,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -22005,7 +22161,7 @@
     "star_temp": 3843.0,
     "distance": 1058.3,
     "orbital_distance": 0.13,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -22109,7 +22265,7 @@
     "star_temp": 5542.0,
     "distance": 2141.1,
     "orbital_distance": 0.4988,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -22200,7 +22356,7 @@
     "star_temp": 4881.0,
     "distance": 3756.2,
     "orbital_distance": 0.1121,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -22486,7 +22642,7 @@
     "star_temp": 5148.0,
     "distance": 1822.8,
     "orbital_distance": 0.1229,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -22512,7 +22668,7 @@
     "star_temp": 3688.0,
     "distance": 10.7,
     "orbital_distance": 0.0683,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -22681,7 +22837,7 @@
     "star_temp": 6145.0,
     "distance": 1296.0,
     "orbital_distance": 0.753,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -22785,7 +22941,7 @@
     "star_temp": 4828.0,
     "distance": 1485.8,
     "orbital_distance": 0.2829,
-    "habitability_score": 0.04,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -22798,7 +22954,7 @@
     "star_temp": 6071.0,
     "distance": 1430.1,
     "orbital_distance": 0.406,
-    "habitability_score": 0.0,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -22915,7 +23071,7 @@
     "star_temp": 3342.0,
     "distance": 18.2,
     "orbital_distance": 0.0808,
-    "habitability_score": 0.005,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -23439,6 +23595,19 @@
     "is_habitable": false
   },
   {
+    "name": "Kepler-1708 b",
+    "star": "Kepler-1708",
+    "radius": 9.96,
+    "mass": 1462.011,
+    "orbital_period": 737.11,
+    "temperature": 241.0,
+    "star_temp": 6157.0,
+    "distance": 5436.7,
+    "orbital_distance": 1.64,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-1749 d",
     "star": "TOI-1749",
     "radius": 2.52,
@@ -23699,6 +23868,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 4274 c",
+    "star": "GJ 4274",
+    "radius": 2.83,
+    "mass": 8.39,
+    "orbital_period": 69.57,
+    "temperature": 156.6,
+    "star_temp": 3228.0,
+    "distance": 23.6,
+    "orbital_distance": 0.186,
+    "habitability_score": 0.01,
+    "is_habitable": false
+  },
+  {
     "name": "HAT-P-43 b",
     "star": "HAT-P-43",
     "radius": 13.63,
@@ -23734,7 +23916,7 @@
     "star_temp": 4372.0,
     "distance": 528.4,
     "orbital_distance": 0.1369,
-    "habitability_score": 0.0,
+    "habitability_score": 0.045,
     "is_habitable": false
   },
   {
@@ -23864,8 +24046,8 @@
     "star_temp": 3430.0,
     "distance": 188.5,
     "orbital_distance": 0.145,
-    "habitability_score": 0.02,
-    "is_habitable": false
+    "habitability_score": 0.73,
+    "is_habitable": true
   },
   {
     "name": "Kepler-97 b",
@@ -23916,6 +24098,19 @@
     "star_temp": 3340.0,
     "distance": 22.4,
     "orbital_distance": 0.0266,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-75 c",
+    "star": "K2-75",
+    "radius": 2.77,
+    "mass": 8.1,
+    "orbital_period": 18.31,
+    "temperature": 954.5,
+    "star_temp": 5995.0,
+    "distance": 1833.0,
+    "orbital_distance": 0.1429,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -23981,8 +24176,8 @@
     "star_temp": 4508.0,
     "distance": 957.4,
     "orbital_distance": 0.242,
-    "habitability_score": 0.84,
-    "is_habitable": true
+    "habitability_score": 0.13,
+    "is_habitable": false
   },
   {
     "name": "Kepler-307 b",
@@ -24267,7 +24462,7 @@
     "star_temp": 5166.0,
     "distance": 28.7,
     "orbital_distance": 1.18,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -24488,8 +24683,8 @@
     "star_temp": 2900.0,
     "distance": 4.2,
     "orbital_distance": 0.0485,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.995,
+    "is_habitable": true
   },
   {
     "name": "rho CrB c",
@@ -24514,7 +24709,7 @@
     "star_temp": 2900.0,
     "distance": 4.2,
     "orbital_distance": 0.0288,
-    "habitability_score": 0.0,
+    "habitability_score": 0.08,
     "is_habitable": false
   },
   {
@@ -24729,7 +24924,7 @@
     "name": "Kepler-302 c",
     "star": "Kepler-302",
     "radius": 12.45,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 127.28,
     "temperature": 392.0,
     "star_temp": 5740.0,
@@ -24878,7 +25073,7 @@
     "star_temp": 5335.0,
     "distance": 1905.5,
     "orbital_distance": 0.5238,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -24930,7 +25125,7 @@
     "star_temp": 6137.0,
     "distance": 2338.1,
     "orbital_distance": 0.6762,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -25151,7 +25346,7 @@
     "star_temp": 5395.0,
     "distance": 2474.1,
     "orbital_distance": 0.6744,
-    "habitability_score": 0.015,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -25320,7 +25515,7 @@
     "star_temp": 3342.0,
     "distance": 108.8,
     "orbital_distance": 0.057,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -25372,7 +25567,7 @@
     "star_temp": 4871.0,
     "distance": 1021.2,
     "orbital_distance": 0.2579,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -25411,6 +25606,19 @@
     "star_temp": 5217.0,
     "distance": 3279.7,
     "orbital_distance": 0.0428,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-69 b",
+    "star": "K2-69",
+    "radius": 2.32,
+    "mass": 5.99,
+    "orbital_period": 7.07,
+    "temperature": 572.8,
+    "star_temp": 4127.0,
+    "distance": 589.4,
+    "orbital_distance": 0.0591,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -25489,7 +25697,7 @@
     "star_temp": 3384.0,
     "distance": 51.6,
     "orbital_distance": 0.081,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -25593,6 +25801,19 @@
     "star_temp": 5131.0,
     "distance": 1269.4,
     "orbital_distance": 0.043,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-58 b",
+    "star": "K2-58",
+    "radius": 2.68,
+    "mass": 7.65,
+    "orbital_period": 7.05,
+    "temperature": 917.9,
+    "star_temp": 5413.0,
+    "distance": 592.9,
+    "orbital_distance": 0.0692,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -25866,7 +26087,7 @@
     "star_temp": 3688.0,
     "distance": 10.7,
     "orbital_distance": 0.0417,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -25961,6 +26182,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-150 b",
+    "star": "K2-150",
+    "radius": 2.0,
+    "mass": 4.66,
+    "orbital_period": 10.59,
+    "temperature": 414.4,
+    "star_temp": 3499.0,
+    "distance": 334.3,
+    "orbital_distance": 0.0727,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-1452 b",
     "star": "TOI-1452",
     "radius": 1.672,
@@ -25970,7 +26204,7 @@
     "star_temp": 3185.0,
     "distance": 99.6,
     "orbital_distance": 0.061,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -26022,7 +26256,7 @@
     "star_temp": 4925.0,
     "distance": 981.5,
     "orbital_distance": 0.718,
-    "habitability_score": 0.885,
+    "habitability_score": 0.87,
     "is_habitable": true
   },
   {
@@ -26113,8 +26347,8 @@
     "star_temp": 5694.0,
     "distance": 1572.7,
     "orbital_distance": 0.6725,
-    "habitability_score": 0.805,
-    "is_habitable": true
+    "habitability_score": 0.03,
+    "is_habitable": false
   },
   {
     "name": "TOI-969 b",
@@ -26217,7 +26451,7 @@
     "star_temp": 3841.0,
     "distance": 218.1,
     "orbital_distance": 0.1803,
-    "habitability_score": 0.005,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -26559,6 +26793,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3138 c",
+    "star": "GJ 3138",
+    "radius": 1.88,
+    "mass": 4.18,
+    "orbital_period": 5.97,
+    "temperature": 537.7,
+    "star_temp": 3717.0,
+    "distance": 92.9,
+    "orbital_distance": 0.057,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-2842 b",
     "star": "TOI-2842",
     "radius": 12.845,
@@ -26607,7 +26854,7 @@
     "star_temp": 5069.0,
     "distance": 3997.8,
     "orbital_distance": 0.3771,
-    "habitability_score": 0.095,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -26854,7 +27101,7 @@
     "star_temp": 5470.0,
     "distance": 2226.1,
     "orbital_distance": 0.3197,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -26893,8 +27140,8 @@
     "star_temp": 3459.0,
     "distance": 101.5,
     "orbital_distance": 0.134,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.865,
+    "is_habitable": true
   },
   {
     "name": "Kepler-999 b",
@@ -26919,7 +27166,7 @@
     "star_temp": 2375.0,
     "distance": 444.2,
     "orbital_distance": 243.0,
-    "habitability_score": 0.02,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -27114,7 +27361,7 @@
     "star_temp": 4713.0,
     "distance": 1776.4,
     "orbital_distance": 0.401,
-    "habitability_score": 0.105,
+    "habitability_score": 0.15,
     "is_habitable": false
   },
   {
@@ -27140,7 +27387,7 @@
     "star_temp": 3342.0,
     "distance": 18.2,
     "orbital_distance": 0.196,
-    "habitability_score": 0.56,
+    "habitability_score": 0.965,
     "is_habitable": true
   },
   {
@@ -27166,7 +27413,7 @@
     "star_temp": 5403.0,
     "distance": 2578.7,
     "orbital_distance": 0.4276,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -27309,7 +27556,7 @@
     "star_temp": 5858.0,
     "distance": 1449.4,
     "orbital_distance": 0.2401,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -27348,7 +27595,7 @@
     "star_temp": 3300.0,
     "distance": 158.1,
     "orbital_distance": 0.04,
-    "habitability_score": 0.0,
+    "habitability_score": 0.06,
     "is_habitable": false
   },
   {
@@ -27833,6 +28080,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-72 e",
+    "star": "K2-72",
+    "radius": 1.29,
+    "mass": 2.21,
+    "orbital_period": 24.16,
+    "temperature": 291.5,
+    "star_temp": 3360.0,
+    "distance": 216.7,
+    "orbital_distance": 0.106,
+    "habitability_score": 0.945,
+    "is_habitable": true
+  },
+  {
     "name": "TOI-2498 b",
     "star": "TOI-2498",
     "radius": 6.06,
@@ -28037,8 +28297,8 @@
     "star_temp": 3075.0,
     "distance": 138.3,
     "orbital_distance": 0.083,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.975,
+    "is_habitable": true
   },
   {
     "name": "Kepler-1271 b",
@@ -28089,7 +28349,7 @@
     "star_temp": 4044.0,
     "distance": 353.8,
     "orbital_distance": 0.1716,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -28375,7 +28635,7 @@
     "star_temp": 5757.0,
     "distance": 1799.7,
     "orbital_distance": 1.046,
-    "habitability_score": 0.855,
+    "habitability_score": 0.71,
     "is_habitable": true
   },
   {
@@ -28414,7 +28674,7 @@
     "star_temp": 5502.0,
     "distance": 2415.6,
     "orbital_distance": 0.261,
-    "habitability_score": 0.075,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -28505,7 +28765,7 @@
     "star_temp": 5332.0,
     "distance": 2782.1,
     "orbital_distance": 0.2388,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -28700,7 +28960,7 @@
     "star_temp": 3759.0,
     "distance": 136.7,
     "orbital_distance": 0.101,
-    "habitability_score": 0.0,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -28739,7 +28999,7 @@
     "star_temp": 4486.0,
     "distance": 1093.8,
     "orbital_distance": 0.22,
-    "habitability_score": 0.035,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -28869,7 +29129,7 @@
     "star_temp": 5666.0,
     "distance": 2652.6,
     "orbital_distance": 0.313,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -28947,6 +29207,19 @@
     "star_temp": 3705.0,
     "distance": 886.3,
     "orbital_distance": 0.0809,
+    "habitability_score": 0.025,
+    "is_habitable": false
+  },
+  {
+    "name": "HIP 54597 b",
+    "star": "HIP 54597",
+    "radius": 13.3,
+    "mass": 762.788,
+    "orbital_period": 3274.0,
+    "temperature": 96.3,
+    "star_temp": 4799.0,
+    "distance": 129.6,
+    "orbital_distance": 4.0,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -29168,7 +29441,7 @@
     "star_temp": 2960.0,
     "distance": 86.4,
     "orbital_distance": 0.0296,
-    "habitability_score": 0.005,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -29350,8 +29623,8 @@
     "star_temp": 4075.0,
     "distance": 1166.6,
     "orbital_distance": 0.2149,
-    "habitability_score": 0.13,
-    "is_habitable": false
+    "habitability_score": 0.675,
+    "is_habitable": true
   },
   {
     "name": "Kepler-998 b",
@@ -29402,7 +29675,7 @@
     "star_temp": 3844.0,
     "distance": 143.8,
     "orbital_distance": 0.1357,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -29415,7 +29688,7 @@
     "star_temp": 3844.0,
     "distance": 143.8,
     "orbital_distance": 0.2014,
-    "habitability_score": 0.01,
+    "habitability_score": 0.215,
     "is_habitable": false
   },
   {
@@ -29532,7 +29805,7 @@
     "star_temp": 4263.0,
     "distance": 1048.9,
     "orbital_distance": 0.182,
-    "habitability_score": 0.0,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -29727,7 +30000,7 @@
     "star_temp": 3326.0,
     "distance": 52.2,
     "orbital_distance": 0.0525,
-    "habitability_score": 0.0,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -29935,7 +30208,7 @@
     "star_temp": 5600.0,
     "distance": 4021.7,
     "orbital_distance": 0.676,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -29987,7 +30260,7 @@
     "star_temp": 5756.0,
     "distance": 2473.6,
     "orbital_distance": 0.32,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -30052,8 +30325,8 @@
     "star_temp": 5368.0,
     "distance": 19.6,
     "orbital_distance": 0.3625,
-    "habitability_score": 0.025,
-    "is_habitable": false
+    "habitability_score": 0.61,
+    "is_habitable": true
   },
   {
     "name": "TOI-4377 b",
@@ -30104,8 +30377,8 @@
     "star_temp": 4017.0,
     "distance": 1093.0,
     "orbital_distance": 0.2486,
-    "habitability_score": 0.98,
-    "is_habitable": true
+    "habitability_score": 0.035,
+    "is_habitable": false
   },
   {
     "name": "Kepler-120 c",
@@ -30273,8 +30546,8 @@
     "star_temp": 5422.0,
     "distance": 2711.7,
     "orbital_distance": 0.6421,
-    "habitability_score": 0.15,
-    "is_habitable": false
+    "habitability_score": 0.705,
+    "is_habitable": true
   },
   {
     "name": "Kepler-1946 b",
@@ -30351,7 +30624,7 @@
     "star_temp": 5903.0,
     "distance": 2540.0,
     "orbital_distance": 0.7326,
-    "habitability_score": 0.09,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -30585,7 +30858,7 @@
     "star_temp": 5474.0,
     "distance": 2013.8,
     "orbital_distance": 1.0525,
-    "habitability_score": 0.015,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -30650,6 +30923,19 @@
     "star_temp": 5555.0,
     "distance": 1319.6,
     "orbital_distance": 0.0555,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 273 c",
+    "star": "GJ 273",
+    "radius": 1.06,
+    "mass": 1.18,
+    "orbital_period": 4.72,
+    "temperature": 447.4,
+    "star_temp": 3382.0,
+    "distance": 19.3,
+    "orbital_distance": 0.0365,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -30793,8 +31079,8 @@
     "star_temp": 3770.0,
     "distance": 150.3,
     "orbital_distance": 0.312,
-    "habitability_score": 0.9,
-    "is_habitable": true
+    "habitability_score": 0.33,
+    "is_habitable": false
   },
   {
     "name": "TOI-4860 b",
@@ -30884,8 +31170,8 @@
     "star_temp": 3096.0,
     "distance": 48.9,
     "orbital_distance": 0.0946,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.73,
+    "is_habitable": true
   },
   {
     "name": "LHS 1140 c",
@@ -31417,7 +31703,7 @@
     "star_temp": 5800.0,
     "distance": 310.5,
     "orbital_distance": 0.847,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -31937,7 +32223,7 @@
     "star_temp": 3931.0,
     "distance": 924.5,
     "orbital_distance": 0.1445,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -32223,7 +32509,7 @@
     "star_temp": 6058.0,
     "distance": 3081.2,
     "orbital_distance": 0.2316,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -32587,7 +32873,7 @@
     "star_temp": 4644.0,
     "distance": 1604.9,
     "orbital_distance": 0.3679,
-    "habitability_score": 0.19,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -33666,7 +33952,7 @@
     "star_temp": 4392.0,
     "distance": 1270.7,
     "orbital_distance": 0.3104,
-    "habitability_score": 0.355,
+    "habitability_score": 0.34,
     "is_habitable": false
   },
   {
@@ -33926,7 +34212,7 @@
     "star_temp": 5754.0,
     "distance": 2667.2,
     "orbital_distance": 0.2987,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -34277,7 +34563,7 @@
     "star_temp": 6112.0,
     "distance": 4211.3,
     "orbital_distance": 0.3625,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -34342,7 +34628,7 @@
     "star_temp": 5211.0,
     "distance": 2348.0,
     "orbital_distance": 0.5791,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -34407,7 +34693,7 @@
     "star_temp": 5798.0,
     "distance": 2073.8,
     "orbital_distance": 0.4125,
-    "habitability_score": 0.02,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -34576,7 +34862,7 @@
     "star_temp": 5298.0,
     "distance": 2831.2,
     "orbital_distance": 0.2881,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -34810,7 +35096,7 @@
     "star_temp": 5712.0,
     "distance": 4240.5,
     "orbital_distance": 0.4301,
-    "habitability_score": 0.005,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -35135,7 +35421,7 @@
     "star_temp": 5807.0,
     "distance": 2558.2,
     "orbital_distance": 0.1422,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -35291,7 +35577,7 @@
     "star_temp": 5747.0,
     "distance": 3904.7,
     "orbital_distance": 0.1728,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -35395,7 +35681,7 @@
     "star_temp": 5850.0,
     "distance": 1678.4,
     "orbital_distance": 0.3144,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -35564,7 +35850,7 @@
     "star_temp": 5753.0,
     "distance": 3085.1,
     "orbital_distance": 0.4024,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -35655,7 +35941,7 @@
     "star_temp": 5006.0,
     "distance": 2427.9,
     "orbital_distance": 0.239,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -35915,7 +36201,7 @@
     "star_temp": 4857.0,
     "distance": 2385.5,
     "orbital_distance": 0.4626,
-    "habitability_score": 0.005,
+    "habitability_score": 0.12,
     "is_habitable": false
   },
   {
@@ -35941,7 +36227,7 @@
     "star_temp": 5747.0,
     "distance": 2034.5,
     "orbital_distance": 0.3856,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -35980,7 +36266,7 @@
     "star_temp": 4598.0,
     "distance": 1550.3,
     "orbital_distance": 0.6085,
-    "habitability_score": 0.015,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -36513,7 +36799,7 @@
     "star_temp": 5706.0,
     "distance": 7001.0,
     "orbital_distance": 0.3237,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -36695,7 +36981,7 @@
     "star_temp": 5767.0,
     "distance": 4332.6,
     "orbital_distance": 0.4823,
-    "habitability_score": 0.015,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -36838,8 +37124,8 @@
     "star_temp": 5078.0,
     "distance": 1621.5,
     "orbital_distance": 0.3825,
-    "habitability_score": 0.815,
-    "is_habitable": true
+    "habitability_score": 0.03,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1405 b",
@@ -37124,7 +37410,7 @@
     "star_temp": 5201.0,
     "distance": 2381.1,
     "orbital_distance": 0.5442,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -37241,7 +37527,7 @@
     "star_temp": 5796.0,
     "distance": 4888.4,
     "orbital_distance": 0.2391,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -37280,7 +37566,7 @@
     "star_temp": 3208.0,
     "distance": 257.3,
     "orbital_distance": 0.0316,
-    "habitability_score": 0.0,
+    "habitability_score": 0.065,
     "is_habitable": false
   },
   {
@@ -37384,7 +37670,7 @@
     "star_temp": 6023.0,
     "distance": 1140.2,
     "orbital_distance": 0.4393,
-    "habitability_score": 0.02,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -37449,7 +37735,7 @@
     "star_temp": 5829.0,
     "distance": 2739.4,
     "orbital_distance": 0.562,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -37488,7 +37774,7 @@
     "star_temp": 5178.0,
     "distance": 1854.6,
     "orbital_distance": 0.6253,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -37527,8 +37813,8 @@
     "star_temp": 5321.0,
     "distance": 2801.3,
     "orbital_distance": 0.6332,
-    "habitability_score": 0.865,
-    "is_habitable": true
+    "habitability_score": 0.065,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1619 b",
@@ -37683,7 +37969,7 @@
     "star_temp": 6166.0,
     "distance": 3499.7,
     "orbital_distance": 0.4104,
-    "habitability_score": 0.005,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -37800,7 +38086,7 @@
     "star_temp": 3722.0,
     "distance": 903.2,
     "orbital_distance": 0.232,
-    "habitability_score": 0.945,
+    "habitability_score": 0.95,
     "is_habitable": true
   },
   {
@@ -38047,7 +38333,7 @@
     "star_temp": 5644.0,
     "distance": 4702.6,
     "orbital_distance": 0.7655,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -38073,8 +38359,8 @@
     "star_temp": 4524.0,
     "distance": 1650.0,
     "orbital_distance": 0.2401,
-    "habitability_score": 0.86,
-    "is_habitable": true
+    "habitability_score": 0.02,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1494 b",
@@ -38515,7 +38801,7 @@
     "star_temp": 4350.0,
     "distance": 1520.4,
     "orbital_distance": 0.503,
-    "habitability_score": 0.06,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -38658,7 +38944,7 @@
     "star_temp": 5053.0,
     "distance": 1811.0,
     "orbital_distance": 0.6477,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -38723,7 +39009,7 @@
     "star_temp": 3724.0,
     "distance": 1148.2,
     "orbital_distance": 0.2952,
-    "habitability_score": 0.13,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -38736,7 +39022,7 @@
     "star_temp": 4098.0,
     "distance": 1480.3,
     "orbital_distance": 0.1861,
-    "habitability_score": 0.025,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -38801,7 +39087,7 @@
     "star_temp": 4736.0,
     "distance": 1080.4,
     "orbital_distance": 1.1218,
-    "habitability_score": 0.68,
+    "habitability_score": 0.48,
     "is_habitable": false
   },
   {
@@ -38931,7 +39217,7 @@
     "star_temp": 6256.0,
     "distance": 3636.8,
     "orbital_distance": 0.3875,
-    "habitability_score": 0.025,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -39113,7 +39399,7 @@
     "star_temp": 5797.0,
     "distance": 6352.9,
     "orbital_distance": 1.1219,
-    "habitability_score": 0.02,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -39269,8 +39555,8 @@
     "star_temp": 5710.0,
     "distance": 4976.2,
     "orbital_distance": 0.745,
-    "habitability_score": 0.64,
-    "is_habitable": true
+    "habitability_score": 0.03,
+    "is_habitable": false
   },
   {
     "name": "Kepler-586 b",
@@ -39659,7 +39945,7 @@
     "star_temp": 5213.0,
     "distance": 552.7,
     "orbital_distance": 0.212,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -39711,7 +39997,7 @@
     "star_temp": 5677.0,
     "distance": 7535.6,
     "orbital_distance": 0.8776,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -39763,7 +40049,7 @@
     "star_temp": 3813.0,
     "distance": 669.1,
     "orbital_distance": 0.1422,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -39828,7 +40114,7 @@
     "star_temp": 3299.0,
     "distance": 416.2,
     "orbital_distance": 0.0295,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -39841,6 +40127,45 @@
     "star_temp": 5611.0,
     "distance": 4724.5,
     "orbital_distance": 0.0524,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-88 b",
+    "star": "K2-88",
+    "radius": 1.23,
+    "mass": 2.04,
+    "orbital_period": 4.61,
+    "temperature": 465.4,
+    "star_temp": 3537.0,
+    "distance": 360.6,
+    "orbital_distance": 0.0345,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-89 b",
+    "star": "K2-89",
+    "radius": 0.615,
+    "mass": 0.17,
+    "orbital_period": 1.1,
+    "temperature": 827.7,
+    "star_temp": 3691.0,
+    "distance": 280.7,
+    "orbital_distance": 0.0146,
+    "habitability_score": 0.005,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-116 b",
+    "star": "K2-116",
+    "radius": 0.69,
+    "mass": 0.257,
+    "orbital_period": 4.66,
+    "temperature": 829.2,
+    "star_temp": 4348.0,
+    "distance": 161.1,
+    "orbital_distance": 0.048,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -39881,6 +40206,32 @@
     "distance": 662.0,
     "orbital_distance": 0.0818,
     "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-91 b",
+    "star": "K2-91",
+    "radius": 1.1,
+    "mass": 1.37,
+    "orbital_period": 1.42,
+    "temperature": 725.3,
+    "star_temp": 3622.0,
+    "distance": 204.1,
+    "orbital_distance": 0.0164,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-72 c",
+    "star": "K2-72",
+    "radius": 1.16,
+    "mass": 1.65,
+    "orbital_period": 15.19,
+    "temperature": 339.2,
+    "star_temp": 3360.0,
+    "distance": 216.7,
+    "orbital_distance": 0.078,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -39962,6 +40313,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-81 b",
+    "star": "K2-81",
+    "radius": 1.97,
+    "mass": 4.54,
+    "orbital_period": 6.1,
+    "temperature": 784.3,
+    "star_temp": 4674.0,
+    "distance": 823.1,
+    "orbital_distance": 0.059,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-1451 b",
     "star": "TOI-1451",
     "radius": 2.611,
@@ -40001,6 +40365,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-90 c",
+    "star": "K2-90",
+    "radius": 1.3,
+    "mass": 2.24,
+    "orbital_period": 2.9,
+    "temperature": 835.0,
+    "star_temp": 4422.0,
+    "distance": 437.7,
+    "orbital_distance": 0.035,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-1753 b",
     "star": "TOI-1753",
     "radius": 2.479,
@@ -40036,7 +40413,7 @@
     "star_temp": 4540.0,
     "distance": 1205.1,
     "orbital_distance": 0.0792,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -40118,6 +40495,19 @@
     "is_habitable": false
   },
   {
+    "name": "K2-42 b",
+    "star": "K2-42",
+    "radius": 2.15,
+    "mass": 5.27,
+    "orbital_period": 6.69,
+    "temperature": 717.7,
+    "star_temp": 4613.0,
+    "distance": 1294.7,
+    "orbital_distance": 0.0617,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "HD 25463 c",
     "star": "HD 25463",
     "radius": 1.364,
@@ -40127,6 +40517,45 @@
     "star_temp": 6353.0,
     "distance": 148.8,
     "orbital_distance": 0.0443,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "Wolf 1061 c",
+    "star": "Wolf 1061",
+    "radius": 1.66,
+    "mass": 3.41,
+    "orbital_period": 17.87,
+    "temperature": 297.4,
+    "star_temp": 3342.0,
+    "distance": 14.0,
+    "orbital_distance": 0.089,
+    "habitability_score": 0.805,
+    "is_habitable": true
+  },
+  {
+    "name": "K2-47 b",
+    "star": "K2-47",
+    "radius": 1.89,
+    "mass": 4.23,
+    "orbital_period": 31.64,
+    "temperature": 503.7,
+    "star_temp": 5054.0,
+    "distance": 1141.3,
+    "orbital_distance": 0.1779,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-48 b",
+    "star": "K2-48",
+    "radius": 2.24,
+    "mass": 5.65,
+    "orbital_period": 20.51,
+    "temperature": 550.8,
+    "star_temp": 4899.0,
+    "distance": 1023.5,
+    "orbital_distance": 0.1344,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -40170,6 +40599,45 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3293 b",
+    "star": "GJ 3293",
+    "radius": 5.19,
+    "mass": 23.54,
+    "orbital_period": 30.6,
+    "temperature": 283.3,
+    "star_temp": 3466.0,
+    "distance": 65.9,
+    "orbital_distance": 0.1434,
+    "habitability_score": 0.01,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-50 b",
+    "star": "K2-50",
+    "radius": 1.59,
+    "mass": 3.15,
+    "orbital_period": 8.75,
+    "temperature": 579.9,
+    "star_temp": 4326.0,
+    "distance": 839.8,
+    "orbital_distance": 0.0705,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-49 b",
+    "star": "K2-49",
+    "radius": 1.93,
+    "mass": 4.38,
+    "orbital_period": 2.77,
+    "temperature": 771.9,
+    "star_temp": 4175.0,
+    "distance": 1491.1,
+    "orbital_distance": 0.0309,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "HD 219134 d",
     "star": "HD 219134",
     "radius": 1.61,
@@ -40179,7 +40647,7 @@
     "star_temp": 4699.0,
     "distance": 21.3,
     "orbital_distance": 0.237,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -40205,7 +40673,46 @@
     "star_temp": 3638.0,
     "distance": 822.0,
     "orbital_distance": 0.1654,
+    "habitability_score": 0.92,
+    "is_habitable": true
+  },
+  {
+    "name": "GJ 3293 c",
+    "star": "GJ 3293",
+    "radius": 4.87,
+    "mass": 21.09,
+    "orbital_period": 122.62,
+    "temperature": 178.8,
+    "star_temp": 3466.0,
+    "distance": 65.9,
+    "orbital_distance": 0.3618,
     "habitability_score": 0.005,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-58 d",
+    "star": "K2-58",
+    "radius": 1.71,
+    "mass": 3.57,
+    "orbital_period": 22.88,
+    "temperature": 620.2,
+    "star_temp": 5413.0,
+    "distance": 592.9,
+    "orbital_distance": 0.1517,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-59 c",
+    "star": "K2-59",
+    "radius": 2.3,
+    "mass": 5.9,
+    "orbital_period": 11.3,
+    "temperature": 692.8,
+    "star_temp": 5055.0,
+    "distance": 1015.5,
+    "orbital_distance": 0.0905,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -40248,6 +40755,32 @@
     "is_habitable": false
   },
   {
+    "name": "K2-63 c",
+    "star": "K2-63",
+    "radius": 3.9,
+    "mass": 14.5,
+    "orbital_period": 25.46,
+    "temperature": 956.3,
+    "star_temp": 6771.0,
+    "distance": 1688.2,
+    "orbital_distance": 0.189,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-63 b",
+    "star": "K2-63",
+    "radius": 3.22,
+    "mass": 10.5,
+    "orbital_period": 20.26,
+    "temperature": 1031.3,
+    "star_temp": 6771.0,
+    "distance": 1688.2,
+    "orbital_distance": 0.1627,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "CoRoT-32 b",
     "star": "CoRoT-32",
     "radius": 6.389,
@@ -40274,6 +40807,32 @@
     "is_habitable": false
   },
   {
+    "name": "K2-64 b",
+    "star": "K2-64",
+    "radius": 2.07,
+    "mass": 4.94,
+    "orbital_period": 6.53,
+    "temperature": 876.3,
+    "star_temp": 5312.0,
+    "distance": 1630.6,
+    "orbital_distance": 0.0619,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-68 b",
+    "star": "K2-68",
+    "radius": 1.58,
+    "mass": 3.12,
+    "orbital_period": 8.05,
+    "temperature": 704.7,
+    "star_temp": 4746.0,
+    "distance": 550.1,
+    "orbital_distance": 0.0708,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "K2-21 b",
     "star": "K2-21",
     "radius": 1.84,
@@ -40296,6 +40855,45 @@
     "star_temp": 6237.0,
     "distance": 625.2,
     "orbital_distance": 0.0309,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-70 b",
+    "star": "K2-70",
+    "radius": 2.89,
+    "mass": 8.7,
+    "orbital_period": 13.98,
+    "temperature": 781.5,
+    "star_temp": 5622.0,
+    "distance": 759.9,
+    "orbital_distance": 0.1112,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-71 b",
+    "star": "K2-71",
+    "radius": 2.15,
+    "mass": 5.27,
+    "orbital_period": 6.99,
+    "temperature": 532.8,
+    "star_temp": 4006.0,
+    "distance": 499.7,
+    "orbital_distance": 0.0559,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-118 b",
+    "star": "K2-118",
+    "radius": 2.54,
+    "mass": 6.99,
+    "orbital_period": 50.92,
+    "temperature": 401.0,
+    "star_temp": 4726.0,
+    "distance": 1049.5,
+    "orbital_distance": 0.245,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -40391,6 +40989,45 @@
     "is_habitable": false
   },
   {
+    "name": "K2-74 b",
+    "star": "K2-74",
+    "radius": 2.31,
+    "mass": 5.95,
+    "orbital_period": 19.57,
+    "temperature": 772.2,
+    "star_temp": 6060.0,
+    "distance": 1232.5,
+    "orbital_distance": 0.1402,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-75 b",
+    "star": "K2-75",
+    "radius": 2.67,
+    "mass": 7.61,
+    "orbital_period": 7.81,
+    "temperature": 1268.2,
+    "star_temp": 5995.0,
+    "distance": 1833.0,
+    "orbital_distance": 0.081,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-125 b",
+    "star": "K2-125",
+    "radius": 2.18,
+    "mass": 5.39,
+    "orbital_period": 21.75,
+    "temperature": 331.2,
+    "star_temp": 3654.0,
+    "distance": 405.0,
+    "orbital_distance": 0.121,
+    "habitability_score": 0.025,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-2485 b",
     "star": "TOI-2485",
     "radius": 12.139,
@@ -40456,6 +41093,32 @@
     "is_habitable": false
   },
   {
+    "name": "K2-83 b",
+    "star": "K2-83",
+    "radius": 1.244,
+    "mass": 2.08,
+    "orbital_period": 2.75,
+    "temperature": 706.9,
+    "star_temp": 3910.0,
+    "distance": 409.5,
+    "orbital_distance": 0.0301,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-130 b",
+    "star": "K2-130",
+    "radius": 1.25,
+    "mass": 2.1,
+    "orbital_period": 2.49,
+    "temperature": 951.8,
+    "star_temp": 4356.0,
+    "distance": 385.0,
+    "orbital_distance": 0.032,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-421 c",
     "star": "TOI-421",
     "radius": 5.09,
@@ -40465,6 +41128,32 @@
     "star_temp": 5291.0,
     "distance": 244.0,
     "orbital_distance": 0.117,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-84 b",
+    "star": "K2-84",
+    "radius": 2.41,
+    "mass": 6.39,
+    "orbital_period": 6.42,
+    "temperature": 1017.3,
+    "star_temp": 5652.0,
+    "distance": 929.3,
+    "orbital_distance": 0.0665,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-84 c",
+    "star": "K2-84",
+    "radius": 2.03,
+    "mass": 4.78,
+    "orbital_period": 27.86,
+    "temperature": 624.6,
+    "star_temp": 5652.0,
+    "distance": 929.3,
+    "orbital_distance": 0.1768,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -40504,7 +41193,7 @@
     "star_temp": 5723.0,
     "distance": 1301.6,
     "orbital_distance": 0.4607,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -40608,7 +41297,7 @@
     "star_temp": 5597.0,
     "distance": 1853.2,
     "orbital_distance": 2.026,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -40621,7 +41310,7 @@
     "star_temp": 3415.0,
     "distance": 34.6,
     "orbital_distance": 0.0712,
-    "habitability_score": 0.0,
+    "habitability_score": 0.08,
     "is_habitable": false
   },
   {
@@ -40634,8 +41323,8 @@
     "star_temp": 3415.0,
     "distance": 34.6,
     "orbital_distance": 0.1052,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.96,
+    "is_habitable": true
   },
   {
     "name": "TOI-1824 b",
@@ -40699,8 +41388,8 @@
     "star_temp": 3192.0,
     "distance": 11.0,
     "orbital_distance": 0.0496,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.885,
+    "is_habitable": true
   },
   {
     "name": "K2-321 b",
@@ -40829,6 +41518,19 @@
     "star_temp": 3229.0,
     "distance": 104.5,
     "orbital_distance": 0.0572,
+    "habitability_score": 0.015,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 3138 b",
+    "star": "GJ 3138",
+    "radius": 1.18,
+    "mass": 1.78,
+    "orbital_period": 1.22,
+    "temperature": 918.1,
+    "star_temp": 3717.0,
+    "distance": 92.9,
+    "orbital_distance": 0.0197,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -40872,6 +41574,45 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3323 b",
+    "star": "GJ 3323",
+    "radius": 1.23,
+    "mass": 2.02,
+    "orbital_period": 5.36,
+    "temperature": 353.0,
+    "star_temp": 3159.0,
+    "distance": 17.5,
+    "orbital_distance": 0.0328,
+    "habitability_score": 0.665,
+    "is_habitable": true
+  },
+  {
+    "name": "GJ 3138 d",
+    "star": "GJ 3138",
+    "radius": 3.23,
+    "mass": 10.5,
+    "orbital_period": 257.8,
+    "temperature": 156.6,
+    "star_temp": 3717.0,
+    "distance": 92.9,
+    "orbital_distance": 0.698,
+    "habitability_score": 0.005,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 3323 c",
+    "star": "GJ 3323",
+    "radius": 1.32,
+    "mass": 2.31,
+    "orbital_period": 40.54,
+    "temperature": 178.8,
+    "star_temp": 3159.0,
+    "distance": 17.5,
+    "orbital_distance": 0.1264,
+    "habitability_score": 0.29,
+    "is_habitable": false
+  },
+  {
     "name": "HD 191939 e",
     "star": "HD 191939",
     "radius": 13.0,
@@ -40881,7 +41622,7 @@
     "star_temp": 5348.0,
     "distance": 174.9,
     "orbital_distance": 0.407,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -40909,6 +41650,19 @@
     "orbital_distance": 0.5016,
     "habitability_score": 0.0,
     "is_habitable": false
+  },
+  {
+    "name": "GJ 273 b",
+    "star": "GJ 273",
+    "radius": 1.51,
+    "mass": 2.89,
+    "orbital_period": 18.65,
+    "temperature": 282.6,
+    "star_temp": 3382.0,
+    "distance": 19.3,
+    "orbital_distance": 0.0911,
+    "habitability_score": 0.97,
+    "is_habitable": true
   },
   {
     "name": "TOI-3568 b",
@@ -40963,6 +41717,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3293 e",
+    "star": "GJ 3293",
+    "radius": 1.63,
+    "mass": 3.28,
+    "orbital_period": 13.25,
+    "temperature": 376.5,
+    "star_temp": 3466.0,
+    "distance": 65.9,
+    "orbital_distance": 0.0821,
+    "habitability_score": 0.035,
+    "is_habitable": false
+  },
+  {
     "name": "TOI-1777.01",
     "star": "TOI-1777",
     "radius": 2.246,
@@ -40974,6 +41741,19 @@
     "orbital_distance": 0.1195,
     "habitability_score": 0.0,
     "is_habitable": false
+  },
+  {
+    "name": "GJ 3293 d",
+    "star": "GJ 3293",
+    "radius": 2.67,
+    "mass": 7.6,
+    "orbital_period": 48.13,
+    "temperature": 244.1,
+    "star_temp": 3466.0,
+    "distance": 65.9,
+    "orbital_distance": 0.1939,
+    "habitability_score": 0.63,
+    "is_habitable": true
   },
   {
     "name": "HD 101581 c",
@@ -41011,6 +41791,32 @@
     "star_temp": 4673.0,
     "distance": 2865.4,
     "orbital_distance": 0.0854,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-148 d",
+    "star": "K2-148",
+    "radius": 1.64,
+    "mass": 3.33,
+    "orbital_period": 9.76,
+    "temperature": 563.8,
+    "star_temp": 4079.0,
+    "distance": 406.0,
+    "orbital_distance": 0.0774,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-148 b",
+    "star": "K2-148",
+    "radius": 1.33,
+    "mass": 2.33,
+    "orbital_period": 4.38,
+    "temperature": 736.1,
+    "star_temp": 4079.0,
+    "distance": 406.0,
+    "orbital_distance": 0.0454,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -41063,8 +41869,8 @@
     "star_temp": 4956.0,
     "distance": 42.2,
     "orbital_distance": 0.6,
-    "habitability_score": 0.035,
-    "is_habitable": false
+    "habitability_score": 0.645,
+    "is_habitable": true
   },
   {
     "name": "TOI-4638.01",
@@ -41193,7 +41999,7 @@
     "star_temp": 3392.0,
     "distance": 101.3,
     "orbital_distance": 0.0809,
-    "habitability_score": 0.0,
+    "habitability_score": 0.05,
     "is_habitable": false
   },
   {
@@ -41401,7 +42207,7 @@
     "star_temp": 3810.0,
     "distance": 237.8,
     "orbital_distance": 0.1159,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -41440,7 +42246,7 @@
     "star_temp": 5990.0,
     "distance": 2297.9,
     "orbital_distance": 0.9342,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -41492,7 +42298,7 @@
     "star_temp": 3230.0,
     "distance": 125.9,
     "orbital_distance": 0.1136,
-    "habitability_score": 0.005,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -41505,8 +42311,8 @@
     "star_temp": 3491.0,
     "distance": 138.3,
     "orbital_distance": 0.1363,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.56,
+    "is_habitable": true
   },
   {
     "name": "TOI-771 b",
@@ -41752,7 +42558,7 @@
     "star_temp": 5348.0,
     "distance": 174.9,
     "orbital_distance": 0.812,
-    "habitability_score": 0.01,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -42025,7 +42831,7 @@
     "star_temp": 4035.0,
     "distance": 527.0,
     "orbital_distance": 0.1649,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -42064,7 +42870,7 @@
     "star_temp": 3926.0,
     "distance": 248.4,
     "orbital_distance": 0.1768,
-    "habitability_score": 0.0,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -42168,7 +42974,7 @@
     "star_temp": 3376.0,
     "distance": 80.7,
     "orbital_distance": 0.0861,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -42337,14 +43143,14 @@
     "star_temp": 5708.0,
     "distance": 605.1,
     "orbital_distance": 0.5379,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
     "name": "Kepler-730 b",
     "star": "Kepler-730",
     "radius": 12.33,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 6.49,
     "temperature": 1219.0,
     "star_temp": 5620.0,
@@ -42441,7 +43247,7 @@
     "star_temp": 3664.0,
     "distance": 116.4,
     "orbital_distance": 0.1514,
-    "habitability_score": 0.0,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -42474,7 +43280,7 @@
     "name": "K2-52 b",
     "star": "K2-52",
     "radius": 18.0,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.54,
     "temperature": 2004.0,
     "star_temp": 7147.0,
@@ -43000,7 +43806,7 @@
     "star_temp": 4426.0,
     "distance": 270.1,
     "orbital_distance": 0.257,
-    "habitability_score": 0.04,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -43013,7 +43819,7 @@
     "star_temp": 3657.0,
     "distance": 281.1,
     "orbital_distance": 0.439,
-    "habitability_score": 0.08,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -43195,7 +44001,7 @@
     "star_temp": 4316.0,
     "distance": 204.5,
     "orbital_distance": 0.1039,
-    "habitability_score": 0.0,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -43247,8 +44053,8 @@
     "star_temp": 5678.0,
     "distance": 2073.8,
     "orbital_distance": 0.6193,
-    "habitability_score": 0.835,
-    "is_habitable": true
+    "habitability_score": 0.07,
+    "is_habitable": false
   },
   {
     "name": "EPIC 249893012 b",
@@ -43377,8 +44183,8 @@
     "star_temp": 5818.0,
     "distance": 3077.5,
     "orbital_distance": 0.6135,
-    "habitability_score": 0.53,
-    "is_habitable": true
+    "habitability_score": 0.0,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1491 c",
@@ -43488,7 +44294,7 @@
     "name": "Kepler-1976 b",
     "star": "Kepler-1976",
     "radius": 12.21,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 4.96,
     "temperature": 1103.0,
     "star_temp": 5712.0,
@@ -43507,7 +44313,7 @@
     "star_temp": 3757.0,
     "distance": 1045.8,
     "orbital_distance": 0.1228,
-    "habitability_score": 0.0,
+    "habitability_score": 0.05,
     "is_habitable": false
   },
   {
@@ -43693,6 +44499,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 1061 d",
+    "star": "GJ 1061",
+    "radius": 1.16,
+    "mass": 1.67,
+    "orbital_period": 13.07,
+    "temperature": 245.1,
+    "star_temp": 2953.0,
+    "distance": 12.0,
+    "orbital_distance": 0.054,
+    "habitability_score": 1.0,
+    "is_habitable": true
+  },
+  {
     "name": "TOI-5349 b",
     "star": "TOI-5349",
     "radius": 10.2,
@@ -43715,7 +44534,7 @@
     "star_temp": 3240.0,
     "distance": 300.7,
     "orbital_distance": 0.0514,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -43728,8 +44547,8 @@
     "star_temp": 3240.0,
     "distance": 300.7,
     "orbital_distance": 0.0649,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.96,
+    "is_habitable": true
   },
   {
     "name": "Kepler-1991 c",
@@ -43774,7 +44593,7 @@
     "name": "Kepler-297 d",
     "star": "Kepler-297",
     "radius": 32.6,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 150.02,
     "temperature": 325.0,
     "star_temp": 5618.0,
@@ -43819,7 +44638,7 @@
     "star_temp": 4580.0,
     "distance": 1437.1,
     "orbital_distance": 0.3608,
-    "habitability_score": 0.13,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -44105,8 +44924,8 @@
     "star_temp": 5146.0,
     "distance": 1905.5,
     "orbital_distance": 0.5738,
-    "habitability_score": 0.755,
-    "is_habitable": true
+    "habitability_score": 0.115,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1702 b",
@@ -44183,7 +45002,7 @@
     "star_temp": 3656.0,
     "distance": 26.6,
     "orbital_distance": 0.091,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -44235,7 +45054,7 @@
     "star_temp": 4120.0,
     "distance": 38.8,
     "orbital_distance": 1.4,
-    "habitability_score": 0.045,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -44248,7 +45067,7 @@
     "star_temp": 4120.0,
     "distance": 38.8,
     "orbital_distance": 0.2324,
-    "habitability_score": 0.15,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -44378,7 +45197,7 @@
     "star_temp": 5966.0,
     "distance": 221.6,
     "orbital_distance": 1.552,
-    "habitability_score": 0.015,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -44417,7 +45236,7 @@
     "star_temp": 5694.0,
     "distance": 180.8,
     "orbital_distance": 1.259,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -44508,7 +45327,7 @@
     "star_temp": 2320.0,
     "distance": null,
     "orbital_distance": 200.0,
-    "habitability_score": 0.02,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -44560,7 +45379,7 @@
     "star_temp": 3697.0,
     "distance": 322.5,
     "orbital_distance": 0.0058,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -44781,7 +45600,7 @@
     "star_temp": 5616.0,
     "distance": 2826.0,
     "orbital_distance": 0.6843,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -44833,7 +45652,7 @@
     "star_temp": 4658.0,
     "distance": 894.4,
     "orbital_distance": 0.6235,
-    "habitability_score": 0.045,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -44937,7 +45756,7 @@
     "star_temp": 4701.0,
     "distance": 1330.9,
     "orbital_distance": 0.2633,
-    "habitability_score": 0.015,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -45119,7 +45938,7 @@
     "star_temp": 5135.0,
     "distance": 3448.6,
     "orbital_distance": 0.5333,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -45301,7 +46120,7 @@
     "star_temp": 5644.0,
     "distance": 4884.3,
     "orbital_distance": 0.6785,
-    "habitability_score": 0.02,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -45340,7 +46159,7 @@
     "star_temp": 4898.0,
     "distance": 1673.8,
     "orbital_distance": 0.4621,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -45431,7 +46250,7 @@
     "star_temp": 4901.0,
     "distance": 1336.1,
     "orbital_distance": 0.0444,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -45561,7 +46380,7 @@
     "star_temp": 5790.0,
     "distance": 1632.6,
     "orbital_distance": 0.0632,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -45574,7 +46393,7 @@
     "star_temp": 4057.0,
     "distance": 607.4,
     "orbital_distance": 0.1195,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -45639,7 +46458,7 @@
     "star_temp": 4821.0,
     "distance": 1834.4,
     "orbital_distance": 0.2395,
-    "habitability_score": 0.01,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -46094,7 +46913,7 @@
     "star_temp": 5431.0,
     "distance": 2605.0,
     "orbital_distance": 0.0525,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -46263,7 +47082,7 @@
     "star_temp": 5731.0,
     "distance": 1225.0,
     "orbital_distance": 0.4842,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -46588,7 +47407,7 @@
     "star_temp": 4884.0,
     "distance": 1115.3,
     "orbital_distance": 1.883,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -46627,7 +47446,7 @@
     "star_temp": 3452.0,
     "distance": 90.7,
     "orbital_distance": 0.0782,
-    "habitability_score": 0.0,
+    "habitability_score": 0.11,
     "is_habitable": false
   },
   {
@@ -46640,6 +47459,19 @@
     "star_temp": 5295.0,
     "distance": 824.2,
     "orbital_distance": 0.1467,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 4274 b",
+    "star": "GJ 4274",
+    "radius": 1.53,
+    "mass": 2.97,
+    "orbital_period": 1.63,
+    "temperature": 545.3,
+    "star_temp": 3228.0,
+    "distance": 23.6,
+    "orbital_distance": 0.0153,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -46718,8 +47550,8 @@
     "star_temp": 3158.0,
     "distance": 31.3,
     "orbital_distance": 0.0672,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.98,
+    "is_habitable": true
   },
   {
     "name": "Kepler-138 b",
@@ -46783,7 +47615,7 @@
     "star_temp": 3841.0,
     "distance": 218.1,
     "orbital_distance": 0.1288,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -46796,6 +47628,32 @@
     "star_temp": 3841.0,
     "distance": 218.1,
     "orbital_distance": 0.0913,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-413 c",
+    "star": "K2-413",
+    "radius": 1.233,
+    "mass": 2.05,
+    "orbital_period": 5.33,
+    "temperature": 804.2,
+    "star_temp": 4116.0,
+    "distance": 930.2,
+    "orbital_distance": 0.0426,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-414 c",
+    "star": "K2-414",
+    "radius": 1.929,
+    "mass": 4.38,
+    "orbital_period": 6.67,
+    "temperature": 762.3,
+    "star_temp": 4343.0,
+    "distance": 848.2,
+    "orbital_distance": 0.0552,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -46913,8 +47771,8 @@
     "star_temp": 3024.0,
     "distance": 15.8,
     "orbital_distance": 0.0738,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.97,
+    "is_habitable": true
   },
   {
     "name": "L 363-38 b",
@@ -46926,7 +47784,7 @@
     "star_temp": 3129.0,
     "distance": 33.4,
     "orbital_distance": 0.048,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -47004,7 +47862,7 @@
     "star_temp": 415.0,
     "distance": null,
     "orbital_distance": 0.97,
-    "habitability_score": 0.0,
+    "habitability_score": 0.03,
     "is_habitable": false
   },
   {
@@ -47043,7 +47901,7 @@
     "star_temp": 3347.0,
     "distance": 20.4,
     "orbital_distance": 0.1417,
-    "habitability_score": 0.0,
+    "habitability_score": 0.265,
     "is_habitable": false
   },
   {
@@ -47121,7 +47979,7 @@
     "star_temp": 5421.0,
     "distance": 222.4,
     "orbital_distance": 0.3192,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -47134,6 +47992,32 @@
     "star_temp": 5495.0,
     "distance": 921.7,
     "orbital_distance": 0.1387,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "HD 74698 b",
+    "star": "HD 74698",
+    "radius": 5.12,
+    "mass": 23.0,
+    "orbital_period": 15.02,
+    "temperature": 927.5,
+    "star_temp": 5783.0,
+    "distance": 169.8,
+    "orbital_distance": 0.121,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "HD 74698 c",
+    "star": "HD 74698",
+    "radius": 14.0,
+    "mass": 126.0,
+    "orbital_period": 3449.0,
+    "temperature": 151.7,
+    "star_temp": 5783.0,
+    "distance": 169.8,
+    "orbital_distance": 4.5,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -47186,7 +48070,7 @@
     "star_temp": 2620.0,
     "distance": 41.4,
     "orbital_distance": 350.0,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -47212,7 +48096,7 @@
     "star_temp": 5596.0,
     "distance": 634.9,
     "orbital_distance": 0.812,
-    "habitability_score": 0.79,
+    "habitability_score": 0.725,
     "is_habitable": true
   },
   {
@@ -47329,14 +48213,14 @@
     "star_temp": 3457.0,
     "distance": 124.0,
     "orbital_distance": 0.06,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
     "name": "K2-253 b",
     "star": "K2-253",
     "radius": 12.67,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 4.0,
     "temperature": 1238.0,
     "star_temp": 6027.0,
@@ -47388,7 +48272,7 @@
     "name": "Kepler-471 b",
     "star": "Kepler-471",
     "radius": 14.96,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 5.01,
     "temperature": 1308.0,
     "star_temp": 6733.0,
@@ -47433,7 +48317,7 @@
     "star_temp": 5950.0,
     "distance": 2681.8,
     "orbital_distance": 1.137,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -47459,7 +48343,7 @@
     "star_temp": 3273.0,
     "distance": 32.3,
     "orbital_distance": 0.0405,
-    "habitability_score": 0.0,
+    "habitability_score": 0.06,
     "is_habitable": false
   },
   {
@@ -47550,8 +48434,8 @@
     "star_temp": 3034.0,
     "distance": 12.5,
     "orbital_distance": 0.0259,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.94,
+    "is_habitable": true
   },
   {
     "name": "Teegarden's Star c",
@@ -47563,8 +48447,8 @@
     "star_temp": 3034.0,
     "distance": 12.5,
     "orbital_distance": 0.0455,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.995,
+    "is_habitable": true
   },
   {
     "name": "Teegarden's Star d",
@@ -47576,8 +48460,8 @@
     "star_temp": 3034.0,
     "distance": 12.5,
     "orbital_distance": 0.0791,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.785,
+    "is_habitable": true
   },
   {
     "name": "TOI-969 c",
@@ -47589,7 +48473,7 @@
     "star_temp": 4435.0,
     "distance": 252.0,
     "orbital_distance": 2.52,
-    "habitability_score": 0.02,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -47823,7 +48707,7 @@
     "star_temp": 3759.0,
     "distance": 136.7,
     "orbital_distance": 0.137,
-    "habitability_score": 0.02,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -47888,7 +48772,7 @@
     "star_temp": 4710.0,
     "distance": 80.7,
     "orbital_distance": 0.0204,
-    "habitability_score": 0.025,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -47953,7 +48837,7 @@
     "star_temp": 4927.0,
     "distance": 233.7,
     "orbital_distance": 0.212,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -47966,7 +48850,7 @@
     "star_temp": 5844.0,
     "distance": 619.4,
     "orbital_distance": 2.0,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -48031,7 +48915,7 @@
     "star_temp": 3563.0,
     "distance": 117.5,
     "orbital_distance": 0.105,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -48044,7 +48928,7 @@
     "star_temp": 4593.0,
     "distance": 55.1,
     "orbital_distance": 0.1951,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -48148,7 +49032,7 @@
     "star_temp": 5445.0,
     "distance": 236.4,
     "orbital_distance": 0.1651,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -48200,7 +49084,7 @@
     "star_temp": 3131.0,
     "distance": 105.0,
     "orbital_distance": 0.0377,
-    "habitability_score": 0.0,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -48317,7 +49201,7 @@
     "star_temp": 4760.0,
     "distance": 11.9,
     "orbital_distance": 28.4,
-    "habitability_score": 0.015,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -48369,8 +49253,8 @@
     "star_temp": 2850.0,
     "distance": 105.8,
     "orbital_distance": 0.0398,
-    "habitability_score": 0.01,
-    "is_habitable": false
+    "habitability_score": 0.85,
+    "is_habitable": true
   },
   {
     "name": "TOI-1203.01",
@@ -48434,7 +49318,7 @@
     "star_temp": 5757.0,
     "distance": 826.5,
     "orbital_distance": 0.33,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -48512,8 +49396,8 @@
     "star_temp": 3459.0,
     "distance": 101.5,
     "orbital_distance": 0.1633,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.935,
+    "is_habitable": true
   },
   {
     "name": "TOI-892 b",
@@ -48727,7 +49611,7 @@
     "name": "Kepler-485 b",
     "star": "Kepler-485",
     "radius": 14.41,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.24,
     "temperature": 1243.0,
     "star_temp": 5958.0,
@@ -48759,7 +49643,7 @@
     "star_temp": 5433.0,
     "distance": 2475.4,
     "orbital_distance": 0.18,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -48772,7 +49656,7 @@
     "star_temp": 3926.0,
     "distance": 419.0,
     "orbital_distance": 0.1525,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -48863,7 +49747,7 @@
     "star_temp": 3296.0,
     "distance": 27.2,
     "orbital_distance": 0.27,
-    "habitability_score": 0.265,
+    "habitability_score": 0.16,
     "is_habitable": false
   },
   {
@@ -49045,7 +49929,7 @@
     "star_temp": 2907.0,
     "distance": 34.7,
     "orbital_distance": 0.0297,
-    "habitability_score": 0.0,
+    "habitability_score": 0.085,
     "is_habitable": false
   },
   {
@@ -49084,6 +49968,19 @@
     "star_temp": 6000.0,
     "distance": 1036.2,
     "orbital_distance": 0.047,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 3998 c",
+    "star": "GJ 3998",
+    "radius": 2.5,
+    "mass": 6.82,
+    "orbital_period": 13.73,
+    "temperature": 424.5,
+    "star_temp": 3726.0,
+    "distance": 59.2,
+    "orbital_distance": 0.09,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -49318,7 +50215,7 @@
     "star_temp": 3072.0,
     "distance": 328.3,
     "orbital_distance": 0.0886,
-    "habitability_score": 0.005,
+    "habitability_score": 0.025,
     "is_habitable": false
   },
   {
@@ -49422,7 +50319,7 @@
     "star_temp": 6047.0,
     "distance": 1614.1,
     "orbital_distance": 0.6679,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -49591,6 +50488,19 @@
     "star_temp": 4948.0,
     "distance": 1145.7,
     "orbital_distance": 0.1977,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "GJ 1061 b",
+    "star": "GJ 1061",
+    "radius": 1.04,
+    "mass": 1.11,
+    "orbital_period": 3.21,
+    "temperature": 388.8,
+    "star_temp": 2953.0,
+    "distance": 12.0,
+    "orbital_distance": 0.021,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -49825,7 +50735,7 @@
     "star_temp": 4580.0,
     "distance": 73.8,
     "orbital_distance": 0.371,
-    "habitability_score": 0.05,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -50085,7 +50995,7 @@
     "star_temp": 4222.0,
     "distance": 272.8,
     "orbital_distance": 0.107,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -50098,7 +51008,7 @@
     "star_temp": 3390.0,
     "distance": 270.6,
     "orbital_distance": 0.091,
-    "habitability_score": 0.0,
+    "habitability_score": 0.095,
     "is_habitable": false
   },
   {
@@ -50193,6 +51103,19 @@
     "is_habitable": false
   },
   {
+    "name": "GJ 3998 b",
+    "star": "GJ 3998",
+    "radius": 1.39,
+    "mass": 2.5,
+    "orbital_period": 2.65,
+    "temperature": 733.1,
+    "star_temp": 3726.0,
+    "distance": 59.2,
+    "orbital_distance": 0.03,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "K2-239 b",
     "star": "K2-239",
     "radius": 1.1,
@@ -50280,7 +51203,7 @@
     "star_temp": 3660.0,
     "distance": 605.4,
     "orbital_distance": 0.1128,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -50345,8 +51268,8 @@
     "star_temp": 3341.0,
     "distance": 214.0,
     "orbital_distance": 0.164,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.65,
+    "is_habitable": true
   },
   {
     "name": "TOI-640 b",
@@ -50479,6 +51402,32 @@
     "is_habitable": false
   },
   {
+    "name": "K2-128 b",
+    "star": "K2-128",
+    "radius": 1.42,
+    "mass": 2.6,
+    "orbital_period": 5.68,
+    "temperature": 802.1,
+    "star_temp": 4470.0,
+    "distance": 373.9,
+    "orbital_distance": 0.056,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-129 b",
+    "star": "K2-129",
+    "radius": 1.04,
+    "mass": 1.12,
+    "orbital_period": 8.24,
+    "temperature": 405.6,
+    "star_temp": 3459.0,
+    "distance": 90.7,
+    "orbital_distance": 0.057,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "HATS-76 b",
     "star": "HATS-76",
     "radius": 12.094,
@@ -50505,6 +51454,32 @@
     "is_habitable": false
   },
   {
+    "name": "Wolf 1061 d",
+    "star": "Wolf 1061",
+    "radius": 2.69,
+    "mass": 7.7,
+    "orbital_period": 217.21,
+    "temperature": 137.8,
+    "star_temp": 3342.0,
+    "distance": 14.0,
+    "orbital_distance": 0.47,
+    "habitability_score": 0.055,
+    "is_habitable": false
+  },
+  {
+    "name": "Wolf 1061 b",
+    "star": "Wolf 1061",
+    "radius": 1.21,
+    "mass": 1.91,
+    "orbital_period": 4.89,
+    "temperature": 458.4,
+    "star_temp": 3342.0,
+    "distance": 14.0,
+    "orbital_distance": 0.0375,
+    "habitability_score": 0.01,
+    "is_habitable": false
+  },
+  {
     "name": "KELT-17 b",
     "star": "KELT-17",
     "radius": 17.094,
@@ -50527,6 +51502,32 @@
     "star_temp": 6540.0,
     "distance": 854.8,
     "orbital_distance": 0.0179,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-148 c",
+    "star": "K2-148",
+    "radius": 1.73,
+    "mass": 3.64,
+    "orbital_period": 6.92,
+    "temperature": 631.9,
+    "star_temp": 4079.0,
+    "distance": 406.0,
+    "orbital_distance": 0.0616,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-149 b",
+    "star": "K2-149",
+    "radius": 1.64,
+    "mass": 3.33,
+    "orbital_period": 11.33,
+    "temperature": 453.0,
+    "star_temp": 3745.0,
+    "distance": 403.4,
+    "orbital_distance": 0.083,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -50813,7 +51814,7 @@
     "star_temp": 3370.0,
     "distance": 82.5,
     "orbital_distance": 0.046,
-    "habitability_score": 0.0,
+    "habitability_score": 0.075,
     "is_habitable": false
   },
   {
@@ -50956,7 +51957,7 @@
     "star_temp": 3225.0,
     "distance": 133.3,
     "orbital_distance": 0.0601,
-    "habitability_score": 0.005,
+    "habitability_score": 0.035,
     "is_habitable": false
   },
   {
@@ -51125,7 +52126,7 @@
     "star_temp": 3784.0,
     "distance": 866.0,
     "orbital_distance": 0.3006,
-    "habitability_score": 0.86,
+    "habitability_score": 0.945,
     "is_habitable": true
   },
   {
@@ -51268,7 +52269,7 @@
     "star_temp": 5784.0,
     "distance": 344.1,
     "orbital_distance": 0.53,
-    "habitability_score": 0.015,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -51398,7 +52399,7 @@
     "star_temp": 4894.0,
     "distance": 637.5,
     "orbital_distance": 0.1884,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -51775,7 +52776,7 @@
     "star_temp": 4262.0,
     "distance": 1374.5,
     "orbital_distance": 0.177,
-    "habitability_score": 0.0,
+    "habitability_score": 0.02,
     "is_habitable": false
   },
   {
@@ -52009,7 +53010,7 @@
     "star_temp": 6160.0,
     "distance": 3781.3,
     "orbital_distance": 0.363,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -52373,8 +53374,8 @@
     "star_temp": 5051.0,
     "distance": 1428.2,
     "orbital_distance": 0.3565,
-    "habitability_score": 0.765,
-    "is_habitable": true
+    "habitability_score": 0.025,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1819 b",
@@ -52464,7 +53465,7 @@
     "star_temp": 5754.0,
     "distance": 2764.0,
     "orbital_distance": 0.5302,
-    "habitability_score": 0.01,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -52503,7 +53504,7 @@
     "star_temp": 4347.0,
     "distance": 1892.3,
     "orbital_distance": 0.065,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -52529,7 +53530,7 @@
     "star_temp": 4362.0,
     "distance": 1888.0,
     "orbital_distance": 0.2095,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -52620,7 +53621,7 @@
     "star_temp": 4593.0,
     "distance": 55.1,
     "orbital_distance": 0.4894,
-    "habitability_score": 0.03,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -52913,7 +53914,7 @@
     "name": "Kepler-1979 b",
     "star": "Kepler-1979",
     "radius": 29.33,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 18.51,
     "temperature": 683.0,
     "star_temp": 5942.0,
@@ -53153,7 +54154,7 @@
     "star_temp": 4858.0,
     "distance": 1975.6,
     "orbital_distance": 0.0607,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -53374,7 +54375,7 @@
     "star_temp": 4684.0,
     "distance": 1096.8,
     "orbital_distance": 0.28,
-    "habitability_score": 0.06,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -53569,7 +54570,7 @@
     "star_temp": 5840.0,
     "distance": 3387.1,
     "orbital_distance": 0.3004,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -53868,7 +54869,7 @@
     "star_temp": 4540.0,
     "distance": 1205.1,
     "orbital_distance": 0.0648,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -53907,7 +54908,7 @@
     "star_temp": 6310.0,
     "distance": 352.0,
     "orbital_distance": 0.1482,
-    "habitability_score": 0.01,
+    "habitability_score": 0.015,
     "is_habitable": false
   },
   {
@@ -54024,7 +55025,7 @@
     "star_temp": 3748.0,
     "distance": 639.2,
     "orbital_distance": 0.166,
-    "habitability_score": 0.0,
+    "habitability_score": 0.325,
     "is_habitable": false
   },
   {
@@ -54180,7 +55181,7 @@
     "star_temp": 6157.0,
     "distance": 2919.7,
     "orbital_distance": 0.4322,
-    "habitability_score": 0.01,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -54206,8 +55207,8 @@
     "star_temp": 5638.0,
     "distance": 2383.3,
     "orbital_distance": 0.64,
-    "habitability_score": 0.83,
-    "is_habitable": true
+    "habitability_score": 0.03,
+    "is_habitable": false
   },
   {
     "name": "Kepler-431 b",
@@ -54232,7 +55233,7 @@
     "star_temp": 5132.0,
     "distance": 1472.2,
     "orbital_distance": 0.4545,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -54349,7 +55350,7 @@
     "star_temp": 4723.0,
     "distance": 2617.0,
     "orbital_distance": 0.495,
-    "habitability_score": 0.86,
+    "habitability_score": 0.795,
     "is_habitable": true
   },
   {
@@ -54492,7 +55493,7 @@
     "star_temp": 5655.0,
     "distance": 4185.3,
     "orbital_distance": 0.3679,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -54505,7 +55506,7 @@
     "star_temp": 3065.0,
     "distance": 83.4,
     "orbital_distance": 0.0272,
-    "habitability_score": 0.0,
+    "habitability_score": 0.01,
     "is_habitable": false
   },
   {
@@ -54609,7 +55610,7 @@
     "star_temp": 4092.0,
     "distance": 1197.2,
     "orbital_distance": 0.2543,
-    "habitability_score": 0.965,
+    "habitability_score": 0.915,
     "is_habitable": true
   },
   {
@@ -54648,7 +55649,7 @@
     "star_temp": 4807.0,
     "distance": 2462.8,
     "orbital_distance": 0.4706,
-    "habitability_score": 0.96,
+    "habitability_score": 0.555,
     "is_habitable": true
   },
   {
@@ -54700,7 +55701,7 @@
     "star_temp": 3710.0,
     "distance": 386.0,
     "orbital_distance": 0.1275,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -54791,7 +55792,7 @@
     "star_temp": 5739.0,
     "distance": 1585.3,
     "orbital_distance": 0.314,
-    "habitability_score": 0.02,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -54882,7 +55883,7 @@
     "star_temp": 3395.0,
     "distance": 91.1,
     "orbital_distance": 0.0418,
-    "habitability_score": 0.0,
+    "habitability_score": 0.005,
     "is_habitable": false
   },
   {
@@ -55051,8 +56052,8 @@
     "star_temp": 5431.0,
     "distance": 2469.5,
     "orbital_distance": 0.563,
-    "habitability_score": 0.85,
-    "is_habitable": true
+    "habitability_score": 0.015,
+    "is_habitable": false
   },
   {
     "name": "Kepler-1801 c",
@@ -55120,6 +56121,32 @@
     "is_habitable": false
   },
   {
+    "name": "K2-411 b",
+    "star": "K2-411",
+    "radius": 0.99,
+    "mass": 0.937,
+    "orbital_period": 3.21,
+    "temperature": 1389.2,
+    "star_temp": 5711.0,
+    "distance": 972.8,
+    "orbital_distance": 0.0511,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-412 b",
+    "star": "K2-412",
+    "radius": 2.116,
+    "mass": 5.13,
+    "orbital_period": 5.94,
+    "temperature": 1100.2,
+    "star_temp": 5590.0,
+    "distance": 2133.6,
+    "orbital_distance": 0.0586,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "GJ 1002 b",
     "star": "GJ 1002",
     "radius": 1.03,
@@ -55129,8 +56156,8 @@
     "star_temp": 3024.0,
     "distance": 15.8,
     "orbital_distance": 0.0457,
-    "habitability_score": 0.0,
-    "is_habitable": false
+    "habitability_score": 0.995,
+    "is_habitable": true
   },
   {
     "name": "TOI-2076 c",
@@ -55207,6 +56234,19 @@
     "star_temp": 5418.0,
     "distance": 11288.2,
     "orbital_distance": 0.0378,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "HD 94771 b",
+    "star": "HD 94771",
+    "radius": 14.2,
+    "mass": 169.0,
+    "orbital_period": 2164.0,
+    "temperature": 200.9,
+    "star_temp": 5631.0,
+    "distance": 188.5,
+    "orbital_distance": 3.48,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -55454,8 +56494,8 @@
     "star_temp": 3688.0,
     "distance": 10.7,
     "orbital_distance": 0.212,
-    "habitability_score": 0.665,
-    "is_habitable": true
+    "habitability_score": 0.24,
+    "is_habitable": false
   },
   {
     "name": "Kepler-50 b",
@@ -56221,7 +57261,7 @@
     "star_temp": 5433.0,
     "distance": 2475.4,
     "orbital_distance": 0.048,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -56511,6 +57551,45 @@
     "is_habitable": false
   },
   {
+    "name": "K2-72 b",
+    "star": "K2-72",
+    "radius": 1.08,
+    "mass": 1.28,
+    "orbital_period": 5.58,
+    "temperature": 475.5,
+    "star_temp": 3360.0,
+    "distance": 216.7,
+    "orbital_distance": 0.04,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-72 d",
+    "star": "K2-72",
+    "radius": 1.01,
+    "mass": 1.01,
+    "orbital_period": 7.76,
+    "temperature": 424.5,
+    "star_temp": 3360.0,
+    "distance": 216.7,
+    "orbital_distance": 0.05,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-65 b",
+    "star": "K2-65",
+    "radius": 1.58,
+    "mass": 3.12,
+    "orbital_period": 12.65,
+    "temperature": 721.3,
+    "star_temp": 5213.0,
+    "distance": 235.5,
+    "orbital_distance": 0.1014,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
     "name": "Kepler-119 c",
     "star": "Kepler-119",
     "radius": 0.92,
@@ -56559,6 +57638,19 @@
     "star_temp": 4740.0,
     "distance": 1192.5,
     "orbital_distance": 0.0698,
+    "habitability_score": 0.0,
+    "is_habitable": false
+  },
+  {
+    "name": "K2-86 b",
+    "star": "K2-86",
+    "radius": 1.96,
+    "mass": 4.5,
+    "orbital_period": 8.78,
+    "temperature": 827.7,
+    "star_temp": 5482.0,
+    "distance": 843.9,
+    "orbital_distance": 0.077,
     "habitability_score": 0.0,
     "is_habitable": false
   },
@@ -56624,7 +57716,7 @@
     "star_temp": 4838.0,
     "distance": 1583.1,
     "orbital_distance": 0.2548,
-    "habitability_score": 0.01,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {
@@ -56644,7 +57736,7 @@
     "name": "Kepler-762 b",
     "star": "Kepler-762",
     "radius": 12.68,
-    "mass": 7.135,
+    "mass": 7.065,
     "orbital_period": 3.77,
     "temperature": 1302.0,
     "star_temp": 5944.0,
@@ -56702,7 +57794,7 @@
     "star_temp": 4255.0,
     "distance": 1396.2,
     "orbital_distance": 0.213,
-    "habitability_score": 0.035,
+    "habitability_score": 0.15,
     "is_habitable": false
   },
   {
@@ -56936,7 +58028,7 @@
     "star_temp": 3719.0,
     "distance": 18.5,
     "orbital_distance": 0.0788,
-    "habitability_score": 0.0,
+    "habitability_score": 0.04,
     "is_habitable": false
   },
   {
@@ -56988,7 +58080,7 @@
     "star_temp": 3307.0,
     "distance": 73.5,
     "orbital_distance": 0.0849,
-    "habitability_score": 0.005,
+    "habitability_score": 0.125,
     "is_habitable": false
   },
   {
@@ -57222,7 +58314,7 @@
     "star_temp": 3358.0,
     "distance": 71.7,
     "orbital_distance": 0.0757,
-    "habitability_score": 0.0,
+    "habitability_score": 0.1,
     "is_habitable": false
   },
   {
@@ -57300,7 +58392,7 @@
     "star_temp": 3528.0,
     "distance": 143.4,
     "orbital_distance": 0.0475,
-    "habitability_score": 0.005,
+    "habitability_score": 0.0,
     "is_habitable": false
   },
   {

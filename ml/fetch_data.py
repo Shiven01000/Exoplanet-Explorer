@@ -11,7 +11,7 @@ BASE_URL = "https://exoplanetarchive.ipac.caltech.edu/TAP/sync"
 PARAMS = {
     "query": (
         "select pl_name,hostname,pl_rade,pl_bmasse,pl_orbper,"
-        "pl_eqt,st_teff,st_rad,st_mass,pl_orbsmax,sy_dist "
+        "pl_eqt,pl_insol,st_teff,st_rad,st_mass,pl_orbsmax,sy_dist "
         "from pscomppars"
     ),
     "format": "csv",
