@@ -1,0 +1,7 @@
+ml/raw_exoplanets.csv
+.claude/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.task
