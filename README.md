@@ -82,6 +82,14 @@ Planets are labelled using the **PHL Habitable Worlds Catalog** (Planetary Habit
 - **99.2% accuracy**, 82% recall on the habitable class
 - Top predictive feature: equilibrium temperature (`pl_eqt`)
 
+### Iteration history
+
+| Version | Labels | Accuracy | Habitable recall | Notes |
+|---------|--------|----------|-----------------|-------|
+| v1 | Rule-based (radius + temperature + orbital period thresholds) | 99.77% | — | High accuracy, but the model was memorising our own rules rather than learning real science |
+| v2 | PHL Habitable Worlds Catalog | 99.32% | 40% | Scientific legitimacy, but recall collapsed — 19 catalog planets were missing equilibrium temperature data and got silently dropped during cleaning |
+| v3 | PHL catalog + Stefan-Boltzmann recovery | 99.22% | 82% | Added `T_eq = 278.5 × flux^0.25` to estimate missing temperatures from stellar flux before the dropna step, recovering 84 additional planets and bringing recall back to 82% |
+
 ---
 
 ## Local Development
