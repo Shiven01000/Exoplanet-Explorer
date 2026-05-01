@@ -1,5 +1,6 @@
-/* main.js — Three.js scene setup and render loop
-   planets.js and ui.js will be wired in once they exist.                    */
+/* main.js — Three.js scene, camera, lights, render loop, and camera fly-to.
+   Wrapped in an IIFE to keep scene internals out of the global scope;
+   only animateCameraTo is exposed on window for planets.js to call.         */
 
 (function () {
 

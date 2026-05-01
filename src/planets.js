@@ -1,10 +1,10 @@
-/* planets.js — loads exoplanets.json and renders planets as 3D spheres.
-   Colors, glow, and interactions are added in later steps.                  */
+/* planets.js — data loading, 3D mesh creation, textures, glow, and interactions.
+   Exposes initPlanets(), filterPlanets(), checkHover(), checkClick(),
+   and animatePlanets() to the global scope for main.js and ui.js to call.    */
 
 // ── Module-level state ────────────────────────────────────────────────────────
-// These arrays are shared across functions in this file.
-// planetMeshes holds one { mesh, data } object per planet so we can
-// later raycast against meshes and look up the underlying data on hit.
+// planetMeshes holds { mesh, data, glowSprite, habitableGlow } per planet,
+// giving every other function a single place to look up meshes and raw data.
 var allPlanets   = [];
 var planetMeshes = [];
 
@@ -557,9 +557,11 @@ function animatePlanets(elapsed) {
 }
 
 
-// ── Filter (stub) ─────────────────────────────────────────────────────────────
-// Full implementation comes in Step 12. This stub prevents a crash if ui.js
-// calls filterPlanets before it's fully implemented.
+// ── Filtering ─────────────────────────────────────────────────────────────────
+// Called by ui.js whenever a slider or checkbox changes.
+// null for maxDistance / maxMass means "no upper limit" (slider at ceiling).
+// Planets with unknown distance or mass always pass through — we don't
+// penalise missing data caused by incomplete observations.
 function filterPlanets(minScore, minRadius, maxRadius, habitableOnly, maxDistance, maxMass) {
   var count = 0;
   planetMeshes.forEach(function (p) {

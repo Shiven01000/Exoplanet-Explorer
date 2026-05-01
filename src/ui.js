@@ -1,5 +1,5 @@
-/* ui.js — panels, filters, tooltips.
-   Full implementation added in Steps 11-13. Stubs here prevent errors.     */
+/* ui.js — filter panel, info panel, tooltip, and model stats bar.
+   All functions are globals called by planets.js and main.js.               */
 
 var MAX_DISTANCE = 30000;  // ly — slider ceiling
 var MAX_MASS     = 4000;   // Earth masses — slider ceiling
