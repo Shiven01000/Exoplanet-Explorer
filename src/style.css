@@ -1,0 +1,428 @@
+/* ── Reset ───────────────────────────────────────────────────────────────────
+   Remove browser default margins/padding and use border-box sizing everywhere.
+   border-box means padding and border are included in an element's width/height
+   rather than added on top — makes layout math much more predictable.        */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────────
+   overflow: hidden prevents scrollbars from appearing — the 3D canvas fills
+   the viewport and nothing should scroll.                                    */
+body {
+  background: #000;
+  color: #dde6f0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.08em;
+}
+
+
+/* ── Three.js canvas ─────────────────────────────────────────────────────────
+   Fixed positioning takes it out of document flow entirely. z-index: 0 puts
+   it at the bottom of the stacking order — everything else renders above it. */
+#three-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+}
+
+
+/* ── Loading screen ──────────────────────────────────────────────────────────
+   Covers the entire viewport (inset: 0 is shorthand for top/right/bottom/left
+   all = 0). z-index: 1000 puts it above everything else. The fade-out class
+   is added by JavaScript once planets have loaded.                           */
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at center, #000820 0%, #000000 70%);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.7s ease;
+}
+
+#loading-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+/* Three dots that pulse in sequence to indicate loading is in progress */
+.pulse-dots {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.pulse-dots span {
+  width: 12px;
+  height: 12px;
+  background: #6495ed;
+  border-radius: 50%;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+/* Stagger the animation start time so dots pulse one after another */
+.pulse-dots span:nth-child(2) { animation-delay: 0.25s; }
+.pulse-dots span:nth-child(3) { animation-delay: 0.5s; }
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.25;
+    transform: scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.3);
+    box-shadow: 0 0 16px #6495ed;
+  }
+}
+
+.loader-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  color: #aac4f0;
+  margin-bottom: 8px;
+}
+
+.loader-sub {
+  font-size: 12px;
+  color: #4a6080;
+  letter-spacing: 0.08em;
+}
+
+
+/* ── Top bar ─────────────────────────────────────────────────────────────────
+   Spans the full width at the top. border-radius: 0 overrides any inherited
+   rounding — the bar should have sharp corners on the sides.                 */
+#top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background: rgba(0, 5, 25, 0.85);
+  border-bottom: 1px solid rgba(100, 149, 237, 0.2);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.site-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #8ab4f8;
+  letter-spacing: 0.2em;
+}
+
+#top-stats {
+  display: flex;
+  gap: 12px;
+}
+
+.stat-pill {
+  font-size: 12px;
+  color: #6a8caf;
+  background: rgba(100, 149, 237, 0.1);
+  border: 1px solid rgba(100, 149, 237, 0.2);
+  border-radius: 20px;
+  padding: 4px 12px;
+  letter-spacing: 0.05em;
+}
+
+
+/* ── Glassmorphism panels ────────────────────────────────────────────────────
+   Both side panels share the same visual style: dark semi-transparent
+   background, a subtle blue border, and a blur effect on what's behind them.
+   backdrop-filter requires -webkit- prefix for Safari support.               */
+
+/* Left filter panel */
+#filter-panel {
+  position: fixed;
+  top: 56px;
+  left: 16px;
+  width: 240px;
+  z-index: 10;
+  padding: 18px 16px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background: rgba(0, 5, 25, 0.78);
+  border: 1px solid rgba(100, 149, 237, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 12px;
+}
+
+#filter-panel h2 {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: #4a7ab5;
+  margin-bottom: 16px;
+}
+
+.filter-group {
+  margin-bottom: 18px;
+}
+
+.filter-group label {
+  display: block;
+  font-size: 11px;
+  color: #6a8caf;
+  margin-bottom: 8px;
+  letter-spacing: 0.05em;
+}
+
+.filter-group input[type="range"] {
+  width: 100%;
+  accent-color: #6495ed;
+  cursor: pointer;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-row input[type="checkbox"] {
+  accent-color: #6495ed;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.checkbox-row span {
+  font-size: 12px;
+  color: #8ab4f8;
+}
+
+#filtered-count {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+  color: #6495ed;
+  letter-spacing: 0.05em;
+}
+
+
+/* Right info panel */
+#info-panel {
+  position: fixed;
+  top: 56px;
+  right: 16px;
+  width: 300px;
+  z-index: 10;
+  padding: 22px 20px;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+  background: rgba(0, 5, 25, 0.85);
+  border: 1px solid rgba(100, 149, 237, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 12px;
+
+  /* Start off-screen to the right. JavaScript adds/removes .visible to
+     animate it in. The cubic-bezier easing gives it a natural deceleration. */
+  transform: translateX(340px);
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#info-panel.visible { transform: translateX(0); }
+#info-panel.hidden  { transform: translateX(340px); }
+
+.panel-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: #4a6080;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s;
+}
+.panel-close:hover { color: #8ab4f8; }
+
+.planet-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: #c5d8f8;
+  margin-bottom: 4px;
+  padding-right: 24px;
+}
+
+.star-name {
+  font-size: 12px;
+  color: #4a7ab5;
+  margin-bottom: 18px;
+  letter-spacing: 0.04em;
+}
+
+/* 2-column grid for the data fields (radius, mass, temperature, etc.) */
+.data-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.data-item {
+  background: rgba(100, 149, 237, 0.06);
+  border: 1px solid rgba(100, 149, 237, 0.12);
+  border-radius: 8px;
+  padding: 10px 10px 8px;
+}
+
+.data-label {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: #3a5a80;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.data-value {
+  display: block;
+  font-size: 13px;
+  color: #aac4f0;
+  font-weight: 500;
+}
+
+
+/* ── Habitability score section ──────────────────────────────────────────────
+   The bar track is the grey background, the fill overlays it using the same
+   gradient as the planet colors: red (hostile) → yellow → green (habitable).
+   Width is set inline by JavaScript: style="width: 73%"                      */
+.hab-section {
+  border-top: 1px solid rgba(100, 149, 237, 0.15);
+  padding-top: 16px;
+}
+
+.hab-label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #3a5a80;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.hab-bar-track {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  height: 8px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+
+.hab-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #b71c1c 0%, #f57f17 40%, #2e7d32 100%);
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hab-score-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #8ab4f8;
+  margin-bottom: 12px;
+}
+
+.hab-badge {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.badge-habitable {
+  background: rgba(46, 125, 50, 0.2);
+  border: 1px solid rgba(46, 125, 50, 0.5);
+  color: #66bb6a;
+}
+
+.badge-not {
+  background: rgba(60, 60, 80, 0.3);
+  border: 1px solid rgba(100, 100, 140, 0.3);
+  color: #7080a0;
+}
+
+
+/* ── Model stats bar ─────────────────────────────────────────────────────────
+   Small pill at the bottom-left showing the ML model metadata.              */
+#model-stats-bar {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  z-index: 10;
+  padding: 8px 16px;
+  background: rgba(0, 5, 25, 0.75);
+  border: 1px solid rgba(100, 149, 237, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 8px;
+}
+
+#model-stats-text {
+  font-size: 11px;
+  color: #3a5a80;
+  letter-spacing: 0.05em;
+}
+
+
+/* ── Hover tooltip ───────────────────────────────────────────────────────────
+   pointer-events: none is critical — without it, the tooltip would intercept
+   mouse events meant for the canvas, breaking planet hover and click.        */
+#planet-tooltip {
+  position: fixed;
+  background: rgba(0, 8, 30, 0.92);
+  border: 1px solid rgba(100, 149, 237, 0.4);
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  color: #c5d8f8;
+  pointer-events: none;
+  z-index: 20;
+  display: none;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+}
+
+
+/* ── Custom scrollbar ────────────────────────────────────────────────────────
+   Webkit-only (Chrome, Safari, Edge). Firefox uses scrollbar-width/color.   */
+::-webkit-scrollbar              { width: 4px; }
+::-webkit-scrollbar-track        { background: transparent; }
+::-webkit-scrollbar-thumb        { background: rgba(100, 149, 237, 0.3); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover  { background: rgba(100, 149, 237, 0.5); }

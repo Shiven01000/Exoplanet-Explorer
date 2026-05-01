@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exoplanet Explorer</title>
+
+  <!-- Google Fonts: Orbitron for sci-fi headings, Inter for readable body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+  <!-- Loading screen: visible on page load, faded out once planets render -->
+  <div id="loading-screen">
+    <div class="loader-content">
+      <div class="pulse-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p class="loader-text">Loading star map...</p>
+      <p class="loader-sub">Initializing NASA exoplanet data</p>
+    </div>
+  </div>
+
+  <!-- Top bar: title + live stats updated by ui.js -->
+  <div id="top-bar">
+    <h1 class="site-title">EXOPLANET EXPLORER</h1>
+    <div id="top-stats">
+      <span class="stat-pill" id="planet-count-display">— planets</span>
+      <span class="stat-pill" id="model-accuracy-display">— % ML accuracy</span>
+    </div>
+  </div>
+
+  <!-- Left panel: filter controls injected by ui.js after data loads -->
+  <div id="filter-panel"></div>
+
+  <!-- Right panel: planet details injected by ui.js on click, hidden by default -->
+  <div id="info-panel" class="hidden"></div>
+
+  <!-- Bottom-left bar: Random Forest model metadata -->
+  <div id="model-stats-bar">
+    <span id="model-stats-text">Loading model info...</span>
+  </div>
+
+  <!-- Hover tooltip: follows the cursor, shown when hovering a planet -->
+  <div id="planet-tooltip"></div>
+
+  <!-- The Three.js canvas: fills the entire viewport, sits behind all UI panels -->
+  <canvas id="three-canvas"></canvas>
+
+
+  <!-- ── External libraries ─────────────────────────────────────────────── -->
+  <!-- 1. Three.js core — must load first, defines window.THREE             -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- 2. OrbitControls — extends THREE, so Three.js must already be loaded.
+       Note: loaded from jsDelivr at the EXACT same version (r128 = 0.128.0).
+       Using a different version here causes "THREE.OrbitControls is not a
+       constructor" even though it looks like it loaded fine.              -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+  <!-- 3. GSAP — animation library for smooth camera transitions           -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+
+  <!-- ── Our scripts ───────────────────────────────────────────────────── -->
+  <!-- All three files share the global (window) scope. planets.js and     -->
+  <!-- ui.js define functions that main.js calls, so they must come first. -->
+  <script src="src/planets.js"></script>
+  <script src="src/ui.js"></script>
+  <script src="src/main.js"></script>
+
+</body>
+</html>
