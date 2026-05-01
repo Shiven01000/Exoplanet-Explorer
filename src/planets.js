@@ -139,6 +139,40 @@ function _planetType(data) {
   return 'rocky';
 }
 
+// ── Texture pool ──────────────────────────────────────────────────────────────
+// Generating a unique 256×128 canvas texture per planet costs ~128 KB of GPU
+// memory each — 4,493 planets × 128 KB ≈ 600 MB, which silently crashes the
+// WebGL context on most devices after the first load.
+// Instead we pre-generate 6 variants per planet type (42 textures total ≈ 5 MB)
+// and assign each planet to one via a hash of its name. Every planet still looks
+// different from its neighbours, but memory use is 99% lower.
+var _texturePool    = null;
+var _POOL_VARIANTS  = 6;
+var _TYPE_TEMPS     = { gas: 800, subneptune: 400, lava: 2500, ice: 80,
+                        habitable: 270, hot_rocky: 900, rocky: 500 };
+
+function _initTexturePool() {
+  _texturePool = {};
+  Object.keys(_TYPE_TEMPS).forEach(function (type) {
+    for (var v = 0; v < _POOL_VARIANTS; v++) {
+      var mockData = {
+        name:         '__pool__' + type + '_' + v,
+        radius:       type === 'gas' ? 8 : type === 'subneptune' ? 3 : 1,
+        temperature:  _TYPE_TEMPS[type],
+        is_habitable: type === 'habitable',
+      };
+      _texturePool[type + '_' + v] = createPlanetTexture(mockData);
+    }
+  });
+}
+
+function _getPoolTexture(data) {
+  var type    = _planetType(data);
+  var variant = _hashStr(data.name) % _POOL_VARIANTS;
+  return _texturePool[type + '_' + variant];
+}
+
+
 function createPlanetTexture(data) {
   var W = 256, H = 128;
   var cvs = document.createElement('canvas');
@@ -379,6 +413,9 @@ function createPlanetMeshes(scene, planets) {
     return a.orbital_distance - b.orbital_distance;
   });
 
+  // Build the texture pool once before iterating — 42 textures instead of 4,493
+  _initTexturePool();
+
   sorted.forEach(function (data, i) {
 
     // ── Size ──────────────────────────────────────────────────────────────────
@@ -409,7 +446,7 @@ function createPlanetMeshes(scene, planets) {
     // color is kept as emissive so the planet glows faintly with its own tint
     // even on the unlit side. The map itself is white-multiplied (no color tint).
     var material = new THREE.MeshStandardMaterial({
-      map:               createPlanetTexture(data),
+      map:               _getPoolTexture(data),
       emissive:          color,
       emissiveIntensity: data.is_habitable ? 0.15 : 0.04,
       roughness:         0.85,
