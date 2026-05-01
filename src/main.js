@@ -21,10 +21,10 @@
     60,
     window.innerWidth / window.innerHeight,
     0.1,
-    3000   // increased from 2000 — scene now spans up to ~250 units radius
+    4000
   );
-  // Pulled back to see the wider spread: planets now span radius 37–250 units
-  camera.position.set(0, 60, 280);
+  // Sunflower spiral spans radius 8–540; pull back to see the whole disk
+  camera.position.set(0, 120, 600);
 
   // ── Renderer ──────────────────────────────────────────────────────────────
   // We pass the existing <canvas> element from index.html rather than letting
@@ -64,7 +64,7 @@
   controls.enableDamping   = true;
   controls.dampingFactor   = 0.06;
   controls.minDistance     = 4;
-  controls.maxDistance     = 1500;  // increased to match wider scene
+  controls.maxDistance     = 2500;
   controls.autoRotate      = true;
   controls.autoRotateSpeed = 0.25;
 
@@ -91,9 +91,22 @@
   // requestAnimationFrame schedules animate() to run before the next screen
   // repaint — typically 60 times per second. It automatically pauses when the
   // tab is hidden, saving battery and GPU resources.
+  var clock = new THREE.Clock();
+
   function animate() {
     requestAnimationFrame(animate);
-    controls.update();          // required every frame for damping to work
+    var elapsed = clock.getElapsedTime();
+
+    controls.update();
+
+    // Star twinkle — swings between 0.4 and 1.0 opacity, clearly visible
+    if (window._starField) {
+      window._starField.material.opacity = 0.7 + Math.sin(elapsed * 1.8) * 0.3;
+    }
+
+    // Planet rotation + habitable glow pulse
+    animatePlanets(elapsed);
+
     renderer.render(scene, camera);
   }
 
@@ -104,8 +117,11 @@
   // controls.target must move too — if only the position moves, OrbitControls
   // will snap the camera back to the origin on the next user drag.
   // onUpdate calls controls.update() each tick so damping stays consistent.
-  window.animateCameraTo = function (targetPosition) {
-    var offset = 12;  // how far from the planet surface to stop
+  window.animateCameraTo = function (targetPosition, planetSize) {
+    // Scale the stand-off distance with the planet's scene radius so the camera
+    // lands the same number of planet-diameters away regardless of planet size.
+    // Small planets (r≈0.3) → offset≈6, Earth-sized (r≈1) → offset≈11, giants (r≈3) → offset≈23
+    var offset = (planetSize || 1) * 6 + 4;
     gsap.to(camera.position, {
       x: targetPosition.x + offset,
       y: targetPosition.y + offset * 0.5,
